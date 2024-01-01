@@ -19,9 +19,8 @@ const Technologies = () => {
                 <div className="container">
                     <div className="img-tech-wrapper">
                     {images.map((image, i) => (
-                        <div className=''>
+                        <div key={i} className=''>
                             <Image
-                            key={i}
                                 src={image}
                                 width={100}
                                 height={100}

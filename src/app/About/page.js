@@ -66,7 +66,7 @@ const About = () => {
                 <div className="w-full h-full rounded-full bg-gradient-to-r from-[#58AEF1] to-pink-500 absolute -top-12 -right-14 blur-2xl opacity-10"></div>
                 <div className="max-w-xl mx-auto text-center relative">
                     <div className="py-3">
-                        <h3 className="text-3xl text-gray-200 font-bold md:text-5xl">
+                        <h3 className="text-3xl text-gray-200 font-bold md:text-5xl text-gradient">
                             ABOUT LAXILL LIMITED
                         </h3>
                         <p className="text-gray-300 leading-relaxed mt-3">
@@ -227,7 +227,7 @@ const About = () => {
                                         <div className="mt-4">
                                             <h4 className="text-lg text-gray-700 font-semibold">{item.name}</h4>
                                             <p className="text-orange-600">{item.title}</p>
-                                            <p className="text-gray-600 mt-2">{item.desc}</p>
+                                            {/* <p className="text-gray-600 mt-2">{item.desc}</p> */}
                                             <div className="mt-3 flex gap-4 text-gray-400">
                                                 <Link href={item.twitter}>
                                                     <svg className="w-5 h-5 duration-150 hover:text-gray-500" fill="currentColor" viewBox="0 0 48 48"><g clip-path="url(#clip0_17_80)"><path fill="currentColor" d="M15.1 43.5c18.11 0 28.017-15.006 28.017-28.016 0-.422-.01-.853-.029-1.275A19.998 19.998 0 0048 9.11c-1.795.798-3.7 1.32-5.652 1.546a9.9 9.9 0 004.33-5.445 19.794 19.794 0 01-6.251 2.39 9.86 9.86 0 00-16.788 8.979A27.97 27.97 0 013.346 6.299 9.859 9.859 0 006.393 19.44a9.86 9.86 0 01-4.462-1.228v.122a9.844 9.844 0 007.901 9.656 9.788 9.788 0 01-4.442.169 9.867 9.867 0 009.195 6.843A19.75 19.75 0 010 39.078 27.937 27.937 0 0015.1 43.5z" /></g><defs><clipPath id="clip0_17_80"><path fill="currentColor" d="M0 0h48v48H0z" /></clipPath></defs></svg>

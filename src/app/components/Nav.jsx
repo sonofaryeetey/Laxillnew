@@ -14,10 +14,10 @@ const Nav = () => {
     // Replace javascript:void(0) path with your path
     const navigation = [
         { title: "Home", path: "/" },
-        { title: "About", path: "/About" },
+        { title: "About Us", path: "/About" },
         { title: "Services", path: "javascript:void(0)" },
-        { title: "Testimonials", path: "javascript:void(0)" },
-        { title: "Contact", path: "javascript:void(0)" },
+        { title: "Testimonials", path: "/Testimonials" },
+        { title: "Contact", path: "/Contact" },
     ]
     return (
         <nav className="nav w-full border-b md:border-0 md:static">
