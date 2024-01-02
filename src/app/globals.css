@@ -380,6 +380,14 @@ body {
   padding-top:10%;
 }
 
+.centeriz{
+  
+  display:flex;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
+  justify-content: center;
+}
+
 @media (max-width:900px) {
   .card-section {
     flex-direction: column;
@@ -419,6 +427,10 @@ body {
   }
 
   .hero-wrapper {
-    padding-top: 30px;
+    padding-top: 150px !important;
+  }
+
+  .img-holder{
+    display:none !important; 
   }
 }
