@@ -2,6 +2,7 @@
 "use client"
 import React from 'react'
 import { useState } from 'react'
+import Link from 'next/link'
 
 const testimonials = [
     {
@@ -38,6 +39,7 @@ const [checker, setChecker] = useState(true)
 
 
 function role(){
+    
     if ( checker && (currentTestimonial < testimonials.length -1 ) ){
         setCurrentTestimonial(currentTestimonial+1)
     }else{
@@ -92,7 +94,14 @@ setTimeout(role, 4000)
                             ))
                         }
                     </ul>
+                    <div className="zod">
+                    <button className='button-testimonials'>
+                        <Link href={`/Testimonials`}> See All Testimonials</Link>
+                       
+                    </button>
+                    </div>
                 </div>
+
             </div>
         </section>
   )

@@ -4,7 +4,11 @@ import herowoman from '../../../public/images/herowoman.jpg'
 
 const HeroSection = () => {
     return (
-        <div className='hero-wrapper'>
+        <div className='hero-wrapper' style={{
+            backgroundImage: 'url(./images/data-analytics1.jpg)',
+            backgroundSize:'cover',
+        }}>
+            <div className="overlay"></div>
             <div className="container px-10">
                 <div className="content">
                     <div>
