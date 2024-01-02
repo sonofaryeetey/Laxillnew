@@ -81,20 +81,23 @@ const About = () => {
 
             <section className="py-14 ">
                 <div className="max-w-screen-xl mx-auto md:px-8">
-                    <div className="items-center centerize gap-x-12 sm:px-4 md:px-0 lg:flex">
-                        <div className="flex-1  lg:block">
-                            <img src={aboutmini.src} className="md:max-w-lg sm:rounded-lg" alt="" />
-                        </div>
-                        <div className="max-w-xl px-4 space-y-3 mt-6 sm:px-0 md:mt-0 lg:max-w-2xl">
-                            <h3 className="text-orange-600 font-semibold">
-                                WHO WE ARE
-                            </h3>
-                            <p className="text-gray-800 text-3xl font-semibold sm:text-4xl">
-                                Drive your <span className='text-gradient'>growth </span>and <span className='text-gradient'>Success</span> with Laxill
-                            </p>
-                            <p className="mt-3 text-gray-600">
-                                At Laxill Limited, we’re not just a company - we’re a team of visionaries who believe in the transformative power of data. Our journey began with a simple yet profound vision: to empower businesses to harness the potential of their data and make informed decisions that drive growth and success. With a team of seasoned data analysts and scientists, we bring a wealth of experience and a diverse range of skills to the table, ensuring that we can tackle any data challenge.
-                            </p>
+                    <div className='zod'>
+                        <div className="items-center centerize gap-x-12 sm:px-4 md:px-0 lg:flex">
+                            <div className="flex-1  lg:block">
+                                <img src={aboutmini.src} className="md:max-w-lg sm:rounded-lg" alt="" />
+                            </div>
+                            <div className="max-w-xl px-4 space-y-3 mt-6 sm:px-0 md:mt-0 lg:max-w-2xl">
+                                <h3 className="text-orange-600 font-semibold">
+                                    WHO WE ARE
+                                </h3>
+                                <p className="text-gray-800 text-3xl font-semibold sm:text-4xl">
+                                    Drive your <span className='text-gradient'>growth </span>and <span className='text-gradient'>Success</span> with Laxill
+                                </p>
+                                <p className="mt-3 text-gray-600">
+                                    At Laxill Limited, we’re not just a company - we’re a team of visionaries who believe in the transformative power of data. Our journey began with a simple yet profound vision: to empower businesses to harness the potential of their data and make informed decisions that drive growth and success. With a team of seasoned data analysts and scientists, we bring a wealth of experience and a diverse range of skills to the table, ensuring that we can tackle any data challenge.
+                                </p>
+
+                            </div>
 
                         </div>
 
@@ -104,102 +107,107 @@ const About = () => {
 
             <div className='divider'></div>
             <section className="py-14 ">
-                <div className="max-w-screen-xl mx-auto md:px-8">
-                    <div className="items-center centerize gap-x-12 sm:px-4 md:px-0 lg:flex">
+                <div className='zod'>
+                    <div className="max-w-screen-xl mx-auto md:px-8">
+                        <div className="items-center centerize gap-x-12 sm:px-4 md:px-0 lg:flex">
 
-                        <div className="max-w-xl px-4 space-y-3 mt-6 sm:px-0 md:mt-0 lg:max-w-2xl">
-                            <h3 className="text-orange-600 font-semibold">
-                                OUR MISSION
+                            <div className="max-w-xl px-4 space-y-3 mt-6 sm:px-0 md:mt-0 lg:max-w-2xl">
+                                <h3 className="text-orange-600 font-semibold">
+                                    OUR MISSION
 
-                            </h3>
-                            <p className="text-gray-800 text-3xl font-semibold sm:text-4xl">
-                                Powering Innovation and Success Through Data
-                            </p>
-                            <p className="mt-3 text-gray-600">
-                                Our mission is to deliver unparalleled Data Analytics solutions that drive innovation, efficiency, and success for our clients. We believe that data is more than just numbers - it’s a powerful tool that, when harnessed correctly, can unlock limitless potential. Whether it’s identifying new market opportunities, improving operational efficiency, or predicting future trends, our solutions are designed to give our clients the insights they need to stay ahead of the competition.
-                            </p>
+                                </h3>
+                                <p className="text-gray-800 text-3xl font-semibold sm:text-4xl">
+                                    Powering Innovation and Success Through Data
+                                </p>
+                                <p className="mt-3 text-gray-600">
+                                    Our mission is to deliver unparalleled Data Analytics solutions that drive innovation, efficiency, and success for our clients. We believe that data is more than just numbers - it’s a powerful tool that, when harnessed correctly, can unlock limitless potential. Whether it’s identifying new market opportunities, improving operational efficiency, or predicting future trends, our solutions are designed to give our clients the insights they need to stay ahead of the competition.
+                                </p>
 
-                        </div>
+                            </div>
 
-                        <div className="flex-1  lg:block">
-                            <img src="https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" className="md:max-w-lg sm:rounded-lg" alt="" />
+                            <div className="flex-1  lg:block">
+                                <img src="https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" className="md:max-w-lg sm:rounded-lg" alt="" />
+                            </div>
                         </div>
                     </div>
+
                 </div>
             </section>
 
             <section className="py-14 about-mission ">
-                <div className="max-w-screen-xl mx-auto md:px-8">
-                    <div className="items-center centerize gap-x-12 sm:px-4 md:px-0 lg:flex">
-                        <div className="flex-1  lg:block">
-                            <img src="https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" className="md:max-w-lg sm:rounded-lg" alt="" />
+                <div className='zod'>
+                    <div className="max-w-screen-xl mx-auto md:px-8">
+                        <div className="items-center centerize gap-x-12 sm:px-4 md:px-0 lg:flex">
+                            <div className="flex-1  lg:block">
+                                <img src="https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" className="md:max-w-lg sm:rounded-lg" alt="" />
+                            </div>
+
+                            <div className="max-w-xl px-4 space-y-3 mt-6 sm:px-0 md:mt-0 lg:max-w-2xl">
+                                <div>
+                                    <h3 className="text-orange-600 font-semibold">
+                                        OUR VALUES
+
+                                    </h3>
+                                    <p className="text-white text-3xl font-semibold sm:text-4xl">
+                                        Pillars of Success
+                                    </p>
+                                    <p className="mt-3 text-white">
+                                        {`At Laxill Limited, our values are more than just words - they’re the principles that guide everything we do.`}
+                                    </p>
+
+                                </div>
+                                <div className='pl-4'>
+                                    <h3 className="text-orange-600 text-base font-semibold">
+                                        Excellence:
+
+                                    </h3>
+
+                                    <p className="mt-2 text-sm text-white">
+                                        We strive for excellence in everything we do. From our state-of-the-art analytics solutions to our world-class customer service, we’re committed to delivering the best in everything we do.
+                                    </p>
+
+                                </div>
+                                <div className='pl-4'>
+                                    <h3 className="text-orange-600 text-base font-semibold">
+                                        Integrity:
+
+                                    </h3>
+
+                                    <p className="mt-2 text-sm text-white">
+                                        {`We uphold the highest standards of integrity in our work. For us, this means ensuring transparency and honesty in every interaction, whether it’s with our clients, our partners, or our team members.`}
+                                    </p>
+
+                                </div>
+                                <div className='pl-4'>
+                                    <h3 className="text-orange-600 text-base font-semibold">
+                                        Innovation:
+
+                                    </h3>
+
+                                    <p className="mt-2 text-sm text-white">
+                                        {`Embracing innovation is at the core of our philosophy. We’re constantly exploring new technologies and methodologies, pushing the boundaries of what’s possible to offer our clients cutting-edge solutions that keep them at the forefront of their industries.`}
+                                    </p>
+
+                                </div>
+                                <div className='pl-4'>
+                                    <h3 className="text-orange-600 text-base font-semibold">
+                                        Client-Centric Approach:
+
+                                    </h3>
+
+                                    <p className="mt-2 text-sm text-white">
+                                        {`Your success is our success. We take the time to understand your unique needs and challenges, crafting bespoke solutions that not only meet but exceed your expectations.`}
+                                    </p>
+
+                                </div>
+
+
+
+
+                            </div>
+
+
                         </div>
-
-                        <div className="max-w-xl px-4 space-y-3 mt-6 sm:px-0 md:mt-0 lg:max-w-2xl">
-                            <div>
-                                <h3 className="text-orange-600 font-semibold">
-                                    OUR VALUES
-
-                                </h3>
-                                <p className="text-white text-3xl font-semibold sm:text-4xl">
-                                    Pillars of Success
-                                </p>
-                                <p className="mt-3 text-white">
-                                    {`At Laxill Limited, our values are more than just words - they’re the principles that guide everything we do.`}
-                                </p>
-
-                            </div>
-                            <div className='pl-4'>
-                                <h3 className="text-orange-600 text-base font-semibold">
-                                    Excellence:
-
-                                </h3>
-
-                                <p className="mt-2 text-sm text-white">
-                                    We strive for excellence in everything we do. From our state-of-the-art analytics solutions to our world-class customer service, we’re committed to delivering the best in everything we do.
-                                </p>
-
-                            </div>
-                            <div className='pl-4'>
-                                <h3 className="text-orange-600 text-base font-semibold">
-                                    Integrity:
-
-                                </h3>
-
-                                <p className="mt-2 text-sm text-white">
-                                    {`We uphold the highest standards of integrity in our work. For us, this means ensuring transparency and honesty in every interaction, whether it’s with our clients, our partners, or our team members.`}
-                                </p>
-
-                            </div>
-                            <div className='pl-4'>
-                                <h3 className="text-orange-600 text-base font-semibold">
-                                    Innovation:
-
-                                </h3>
-
-                                <p className="mt-2 text-sm text-white">
-                                    {`Embracing innovation is at the core of our philosophy. We’re constantly exploring new technologies and methodologies, pushing the boundaries of what’s possible to offer our clients cutting-edge solutions that keep them at the forefront of their industries.`}
-                                </p>
-
-                            </div>
-                            <div className='pl-4'>
-                                <h3 className="text-orange-600 text-base font-semibold">
-                                    Client-Centric Approach:
-
-                                </h3>
-
-                                <p className="mt-2 text-sm text-white">
-                                    {`Your success is our success. We take the time to understand your unique needs and challenges, crafting bespoke solutions that not only meet but exceed your expectations.`}
-                                </p>
-
-                            </div>
-
-
-
-
-                        </div>
-
-
                     </div>
                 </div>
             </section>

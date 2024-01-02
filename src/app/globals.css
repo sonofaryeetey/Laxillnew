@@ -380,12 +380,10 @@ body {
   padding-top:10%;
 }
 
-.centeriz{
-  
-  display:flex;
-  flex-direction: column;
-  /* flex-wrap: wrap; */
-  justify-content: center;
+.zod{
+  display: flex;
+    justify-content: center;
+
 }
 
 @media (max-width:900px) {
