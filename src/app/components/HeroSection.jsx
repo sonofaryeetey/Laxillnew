@@ -1,6 +1,6 @@
 import React from 'react'
 import heroman from '../../../public/images/heroman.jpg'
-import herowoman from '../../../public/images/herowoman.jpg'
+import herowoman from '../../../public/images/herowman.jpg'
 
 const HeroSection = () => {
     return (
@@ -37,12 +37,11 @@ const HeroSection = () => {
                         <div className="img-card2
                             " style={{
                                 // use the src property of the image object
-                                backgroundImage: `url(${heroman.src})`,
+                                backgroundImage: `url(${herowoman.src})`,
                                 // other styles
                                 backgroundPosition: "center",
                                 backgroundSize: "cover",
-                                backgroundRepeat: "no-repeat",
-                                
+                                backgroundRepeat: "no-repeat",                                
                                 display: 'flex',
                                 alignItems: 'center',
                                 justifyContent: 'center'

@@ -1,6 +1,7 @@
 import React from 'react'
 import aboutmini from "../../../public/images/aboutUsMini.jpeg"
 import Link from 'next/link'
+import SubheroSection from '../components/SubheroSection'
 
 const About = () => {
 
@@ -60,9 +61,18 @@ const About = () => {
             github: "javascript:void(0)"
         },
     ]
+
+    const info ={
+        url:"url(./images/data-analytics2.jpg)",
+        Heading:'ABOUT US',
+        Tag:'WHO. WE. ARE',
+        para:"",
+        opacity:"0.7"
+    }
     return (
         <div>
-            <section className="relative overflow-hidden py-28 px-4 bg-gray-900 md:px-8">
+            <SubheroSection info={info} />
+            {/* <section className="relative overflow-hidden py-28 px-4 bg-gray-900 md:px-8">
                 <div className="w-full h-full rounded-full bg-gradient-to-r from-[#58AEF1] to-pink-500 absolute -top-12 -right-14 blur-2xl opacity-10"></div>
                 <div className="max-w-xl mx-auto text-center relative">
                     <div className="py-3">
@@ -76,7 +86,7 @@ const About = () => {
 
                 </div>
 
-            </section>
+            </section> */}
 
 
             <section className="py-14 ">
