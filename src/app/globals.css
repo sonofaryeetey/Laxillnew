@@ -184,6 +184,8 @@ body {
   min-width:850px;
   text-align: center;
   margin:0 auto;  
+  display:flex;
+  justify-content: space-around;
 
   
 }
@@ -549,7 +551,11 @@ body {
 @media (max-width:770px) {
   .nav {
     position: fixed;
-    z-index: 10;
+    z-index: 99999;
+  }
+
+  .mobile-link-wrapper{
+    height:100vh;
   }
 
   .hero-wrapper {
