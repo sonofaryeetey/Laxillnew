@@ -20,7 +20,7 @@ const Nav = () => {
         { title: "Contact", path: "/Contact" },
     ]
     return (
-        <nav className="nav w-full border-b md:border-0 md:static">
+        <nav className="nav w-full  md:border-0 md:static">
             <div className="  items-center px-4 max-w-screen-xl mx-auto md:flex md:px-8">
                 <div className="flex items-center justify-between py-3 md:py-5 md:block">
                     <a href="javascript:void(0)">
