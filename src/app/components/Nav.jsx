@@ -21,7 +21,7 @@ const Nav = () => {
     ]
     return (
         <nav className="nav w-full border-b md:border-0 md:static">
-            <div className=" mobile-link-wrapper items-center px-4 max-w-screen-xl mx-auto md:flex md:px-8">
+            <div className="  items-center px-4 max-w-screen-xl mx-auto md:flex md:px-8">
                 <div className="flex items-center justify-between py-3 md:py-5 md:block">
                     <a href="javascript:void(0)">
                         <img
@@ -49,7 +49,7 @@ const Nav = () => {
                         </button>
                     </div>
                 </div>
-                <div className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${state ? 'block' : 'hidden'}`}>
+                <div className={`flex-1 mobile-link-wrapper justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${state ? 'block' : 'hidden'}`}>
                     <ul className="justify-end mr-5 items-center space-y-8 md:flex md:space-x-6 md:space-y-0">
                         {
                             navigation.map((item, idx) => {
