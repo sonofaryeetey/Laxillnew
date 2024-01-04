@@ -18,14 +18,33 @@ const Technologies = () => {
             <div className="tech-wrapper">
                 <div className="container">
                     <div className="img-tech-wrapper">
-                    {images.map((image, i) => (
+                        {/* {images.map((image, i) => (
                         <div key={i} className=''>
                             <Image
                                 src={image}
-                                width={100}
+                                width={200}
                                 height={100}
                             /></div>
-                    ))}
+                    ))} */}
+
+                        <div className="img-slider show">
+                            {images.map((image, i) => (
+                                <div className="tech-img-wrapper "  key={i} >
+                                    <img
+                                        src={image}
+
+                                    /></div>
+                            ))}
+                        </div>
+                        <div className="img-slider show" style={{display:"none"}}>
+                            {images.map((image, i) => (
+                                <div className="tech-img-wrapper" style={{ display: "inline-block" }} key={i} >
+                                    <img
+                                        src={image}
+
+                                    /></div>
+                            ))}
+                        </div>
                     </div>
                 </div>
             </div>
