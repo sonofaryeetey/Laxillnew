@@ -10,7 +10,7 @@ const SectionServices = () => {
             <div className="container">
                 <h2 className=' text-3xl md:text-5xl '>What We Do</h2>
                 <div className="underline"></div>
-                <p className=' w-50'> At Laxill Company Limited, we're dedicated to helping businesses harness the power of data to make informed decisions, optimize processes, and achieve their goals. We specialize in data analytics, offering a wide range of services that turn raw data into actionable insights.
+                <p className=' w-50'> {`At Laxill Company Limited, we're dedicated to helping businesses harness the power of data to make informed decisions, optimize processes, and achieve their goals. We specialize in data analytics, offering a wide range of services that turn raw data into actionable insights.`}
                 </p>
             </div>
 
@@ -41,7 +41,7 @@ const SectionServices = () => {
                             </div>
                             <div className="card-text">
                                 <h5>Data Analysis</h5>
-                                <p>We provide comprehensive data analysis services that allow you to explore, visualize, and interpret your data. Whether you're dealing with structured or unstructured data, we have the expertise to uncover valuable patterns and trends that drive your business forward.
+                                <p>{`We provide comprehensive data analysis services that allow you to explore, visualize, and interpret your data. Whether you're dealing with structured or unstructured data, we have the expertise to uncover valuable patterns and trends that drive your business forward.`}
                                 </p>
                             </div>
                         </div>
@@ -69,7 +69,7 @@ const SectionServices = () => {
                             <div className="card-text">
                                 <h5>Predictive Analytics</h5>
                                 <p>
-                                    Predictive analytics is at the heart of what we do. Our experts build models that help you anticipate future trends and make data-driven decisions. From demand forecasting to customer behavior prediction, we've got you covered.
+                                    {`Predictive analytics is at the heart of what we do. Our experts build models that help you anticipate future trends and make data-driven decisions. From demand forecasting to customer behavior prediction, we've got you covered.`}
                                 </p>
                             </div>
                         </div>
