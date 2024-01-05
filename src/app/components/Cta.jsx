@@ -11,16 +11,16 @@ const Cta = () => {
                             Take your business to the  <span className="text-gradient">Next Level</span>
                         </h3>
                         <p className="text-gray-500 leading-relaxed mt-3">
-                            Nam erat risus, sodales sit amet lobortis ut, finibus eget metus. Cras aliquam ante ut tortor posuere feugiat. Duis sodales nisi id porta lacinia.
+                         Laxill is committed to fostering business growth to elevate your business to unprecedented heights. Our cutting-edge data analytics solutions provide actionable insights, enabling you to make informed decisions that drive business success. We help you understand your customers better, optimize your operations, and identify new opportunities. By leveraging the power of data, Laxill empowers you to not only meet but exceed your business goals. Partner with Laxill and embark on a journey of continuous growth and improvement.”
                         </p>
-                        <a
+                        {/* <a
                             className="mt-5 px-4 py-2 text-indigo-600 font-medium bg-indigo-50 rounded-full inline-flex items-center"
                             href="javascript:void()">
                             Try it out
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 ml-1 duration-150" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
                             </svg>
-                        </a>
+                        </a> */}
                     </div>
                     <div className="flex-1 mt-5 mx-auto sm:w-9/12 lg:mt-0 lg:w-auto">
                         <img 

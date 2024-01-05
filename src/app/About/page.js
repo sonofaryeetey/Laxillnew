@@ -63,7 +63,7 @@ const About = () => {
     ]
 
     const info ={
-        url:"url(./images/data-analytics2.jpg)",
+        url:"url(./images/data-analytics4.jpg)",
         Heading:'ABOUT US',
         Tag:'WHO. WE. ARE',
         para:"",
