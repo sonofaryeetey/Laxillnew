@@ -8,6 +8,7 @@ const Technologies = () => {
         '/images/python.png',
         '/images/tableau.png',
         '/images/mysql.png',
+        'images/mongodb.png '
 
     ]
 
@@ -36,7 +37,7 @@ const Technologies = () => {
                                     /></div>
                             ))}
                         </div>
-                        <div className="img-slider show" style={{display:"none"}}>
+                        <div className="img-slider show" >
                             {images.map((image, i) => (
                                 <div className="tech-img-wrapper" style={{ display: "inline-block" }} key={i} >
                                     <img

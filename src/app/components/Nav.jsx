@@ -22,7 +22,7 @@ const Nav = () => {
     return (
         <nav className="nav w-full  md:border-0 md:static">
             <div className="  items-center px-4 max-w-screen-xl mx-auto md:flex md:px-8">
-                <div className="flex items-center justify-between py-3 md:py-5 md:block">
+                <div className=" logo flex items-center justify-between py-3 md:py-3 md:block">
                     <a href="javascript:void(0)">
                         <img
                             src={logo.src}
@@ -30,9 +30,16 @@ const Nav = () => {
                             height={50}
                             alt="logo"
                         />
+                        
                     </a>
+                    <img
+                            src='images/laxillLogoText.png'
+                            width={80}
+                            height={50}
+                            alt="logo"
+                        />
                     <div className="md:hidden">
-                        <button className="text-white outline-none p-2 rounded-md focus:border-gray-400 focus:border"
+                        <button className="text-black outline-none p-2 rounded-md focus:border-gray-400 focus:border"
                             onClick={() => setState(!state)}
                         >
                             {
@@ -54,7 +61,7 @@ const Nav = () => {
                         {
                             navigation.map((item, idx) => {
                                 return (
-                                    <li key={idx} className="text-white hover:text-indigo-600 px-2">
+                                    <li key={idx} className="text-blue hover:text-indigo-600 px-2">
                                         <a href={item.path}>
                                             {item.title}
                                         </a>
@@ -68,7 +75,7 @@ const Nav = () => {
                     {/* <a href="javascript:void(0)" className="py-3 px-4 text-white bg-indigo-600 hover:bg-indigo-700 rounded-md shadow">
                         Get Started
                     </a> */}
-                    <button className='button small-button'>Get started</button>
+                    <button className='small-button buttonplane'>Get started</button>
                 </div>
 
                 

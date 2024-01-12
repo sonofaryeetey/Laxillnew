@@ -7,11 +7,13 @@ import Footer from './components/Footer'
 import Partners from './components/Partners'
 import Testimonials from './components/Testimonials'
 import Cta from './components/Cta'
+import HeroSectionVAriant from './components/HeroSectionVAriant'
 
 export default function Home() {
   return (
     <main>
       <HeroSection/>
+      <HeroSectionVAriant/>
       <Technologies/>
       <SectionServices/>  
       <Brief/>
