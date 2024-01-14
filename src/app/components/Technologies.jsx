@@ -8,7 +8,9 @@ const Technologies = () => {
         '/images/python.png',
         '/images/tableau.png',
         '/images/mysql.png',
-        'images/mongodb.png '
+        'images/mongodb.png ',
+        'images/Azure.png ',
+        'images/copilot.png ',
 
     ]
 
@@ -17,7 +19,7 @@ const Technologies = () => {
     return (
         <div>
             <div className="tech-wrapper">
-                <div className="container">
+                <div className="container-header">
                     <div className="img-tech-wrapper">
                         {/* {images.map((image, i) => (
                         <div key={i} className=''>

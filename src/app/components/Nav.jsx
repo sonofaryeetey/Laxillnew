@@ -37,6 +37,7 @@ const Nav = () => {
                             width={80}
                             height={50}
                             alt="logo"
+                            className='hidden'
                         />
                     <div className="md:hidden">
                         <button className="text-black outline-none p-2 rounded-md focus:border-gray-400 focus:border"
