@@ -8,9 +8,9 @@ const Technologies = () => {
         '/images/python.png',
         '/images/tableau.png',
         '/images/mysql.png',
-        'images/mongodb.png ',
-        'images/Azure.png ',
-        'images/copilot.png ',
+        '/images/mongodb.png ',
+        '/images/Azure.png ',
+        '/images/copilot.png ',
 
     ]
 
@@ -32,11 +32,11 @@ const Technologies = () => {
 
                         <div className="img-slider show">
                             {images.map((image, i) => (
-                                <div className="tech-img-wrapper "  key={i} >
-                                    <img
-                                        src={image}
+                                image ==! 'images/Azure.png'? console.log(image):(<div className="tech-img-wrapper" style={{ display: "inline-block" }} key={i} >
+                                <img
+                                    src={image}
 
-                                    /></div>
+                                /></div>)
                             ))}
                         </div>
                         <div className="img-slider show" >
@@ -45,7 +45,7 @@ const Technologies = () => {
                                     <img
                                         src={image}
 
-                                    /></div>
+                                /></div>
                             ))}
                         </div>
                     </div>
