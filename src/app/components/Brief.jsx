@@ -9,7 +9,7 @@ const Brief = () => {
             findings to guide and 
              <span className=''> elevate</span> your business operations</h2>
           <div className='bold'>
-            <h5 className='text-xl text-white font-bold'> Streamline the business proces</h5>
+            <h5 className='text-xl text-white font-bold'> Streamline the business process</h5>
             <ul>
                         <li>
                             
