@@ -569,7 +569,7 @@ body {
 }
 
 .brief-info ul{
-  padding-left:3%;
+  padding-left:9%;
 }
 
 .brief-info li{
@@ -581,7 +581,7 @@ body {
   color: white;
   font-weight: 900;
   font-size: 3em;
-  max-width:50%;
+  
 }
 
 .brief-info p {
@@ -691,7 +691,7 @@ h1{
 
 .testimonials {
   background: black;
-  margin-bottom: 10%;
+  
 }
 
 /* .partners-section p {
@@ -710,13 +710,17 @@ h1{
   position: relative;
 }
 
+.cta{
+  padding-bottom:12%;
+}
+
 .cta h3{
   padding: 4% 0;
   
 }
 
 .cta ul{
-  padding-left:3%;
+  padding-left:9%;
 }
 .cta ul li{
   margin-bottom:3%;
