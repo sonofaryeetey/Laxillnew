@@ -1,11 +1,27 @@
+"use client"
 import React from 'react'
 import Image from 'next/image'
+import { motion, AnimatePresence, useInView, useIsPresent, useAnimation } from 'framer-motion'
+import { useRef, useEffect } from 'react'
 import bg1 from '../../../public/images/data-analytics1.jpg'
 import bg2 from '../../../public/images/data-analytics2.jpg'
 import bg3 from '../../../public/images/data-analytics3.jpg'
 
+// initial="hidden"
+//       whileInView="visible"
+//       viewport={{ once: true }}
+//       transition={{ duration: 0.3 }}
+//       variants={{
+//         visible: { opacity: 1, scale: 1 },
+//         hidden: { opacity: 0, scale: 0 }
+//       }}
+
 const SectionServices = () => {
+
+
     return (
+
+
         <div className='section-services'>
             <div className="container">
                 <h2 className=' text-3xl md:text-5xl '>What We Do</h2>
@@ -15,10 +31,27 @@ const SectionServices = () => {
             </div>
 
             <div className="container">
-                <div className="card-wrapper">
-                    <div className="card-section">
+                < div className="card-wrapper"
 
-                        <div className="card">
+                >
+                    <div className="card-section"
+
+                    >
+
+                        <motion.div className="card"
+
+                            initial="hidden"
+                            whileInView="visible"
+                            viewport={{ once: true, }}
+                            transition={{ delay: 0.3, duration: .8, ease: "easeOut" }}
+
+                            variants={{
+                                visible: { opacity: 1, y: 0 },
+                                hidden: { opacity: 0, y: 0 },
+
+                            }}
+
+                        >
                             <div className="card-image" style={{
                                 // use the src property of the image object
                                 backgroundImage: `url(${bg1.src})`,
@@ -44,8 +77,19 @@ const SectionServices = () => {
                                 <p>{`We provide comprehensive data analysis services that allow you to explore, visualize, and interpret your data. Whether you're dealing with structured or unstructured data, we have the expertise to uncover valuable patterns and trends that drive your business forward.`}
                                 </p>
                             </div>
-                        </div>
-                        <div className="card">
+                        </motion.div>
+                        <motion.div className="card"
+                            initial="hidden"
+                            whileInView="visible"
+                            viewport={{ once: true, }}
+                            transition={{ delay: 0.5, duration: .8, ease: "easeOut" }}
+
+                            variants={{
+                                visible: { opacity: 1, y: 0 },
+                                hidden: { opacity: 0, y: 0 },
+
+                            }}
+                        >
                             <div className="card-image" style={{
                                 // use the src property of the image object
                                 backgroundImage: `url(${bg2.src})`,
@@ -72,8 +116,19 @@ const SectionServices = () => {
                                     {`Predictive analytics is at the heart of what we do. Our experts build models that help you anticipate future trends and make data-driven decisions. From demand forecasting to customer behavior prediction, we've got you covered.`}
                                 </p>
                             </div>
-                        </div>
-                        <div className="card">
+                        </motion.div>
+                        <motion.div className="card"
+                            initial="hidden"
+                            whileInView="visible"
+                            viewport={{ once: true, }}
+                            transition={{ delay: 0.7, duration: .8, ease: "easeOut" }}
+
+                            variants={{
+                                visible: { opacity: 1, y: 0 },
+                                hidden: { opacity: 0, y: 0 },
+
+                            }}
+                        >
                             <div className="card-image" style={{
                                 // use the src property of the image object
                                 backgroundImage: `url(${bg3.src})`,
@@ -99,17 +154,28 @@ const SectionServices = () => {
                                 <p>Transforming data into meaningful visuals is a powerful way to communicate insights. Our data visualization services make complex data understandable and actionable, enabling your team to act on valuable information quickly.
                                 </p>
                             </div>
-                        </div>
+                        </motion.div>
 
 
                     </div>
-                    <button className='button-testimonials'>See More</button>
+                    <motion.button className='button-testimonials z-10'
+                    initial={{ opacity: 0, y: 30 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true, }}
+                    transition={{  delay:0.3 ,duration:.3,ease:"easeOut"}}
+                    
+                    variants={{
+                        visible: { opacity: 1, y: 0 },
+                        hidden: { opacity: 0, y: 10 },
+
+                    }}
+                    >See More</motion.button>
                 </div>
 
 
-            </div>
+            </div >
 
-        </div>
+        </div >
     )
 }
 

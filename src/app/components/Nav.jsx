@@ -3,11 +3,15 @@
 import React from 'react'
 import { useState } from 'react'
 import logo from "../../../public/images/laxilLogo.png"
+import { usePathname } from 'next/navigation'
+import {motion} from 'framer-motion'
 
 
 
 
 const Nav = () => {
+    const path = usePathname();
+    console.log(path)
 
     const [state, setState] = useState(false)
 
@@ -62,11 +66,15 @@ const Nav = () => {
                         {
                             navigation.map((item, idx) => {
                                 return (
-                                    <li key={idx} className="text-blue hover:text-indigo-600 px-2">
-                                        <a href={item.path}>
+                                    <motion.div
+                                    whileHover={{scale:1.1}}
+                                    >
+                                        <li key={idx} >
+                                        <a href={item.path} className={`${path===item.path? " highlight":""}  hover:text-indigo-600 px-2`}    >
                                             {item.title}
                                         </a>
                                     </li>
+                                    </motion.div>
                                 )
                             })
                         }

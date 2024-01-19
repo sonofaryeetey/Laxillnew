@@ -1,5 +1,7 @@
+"use client"
 import React from 'react'
 import SubheroSection from '../components/SubheroSection'
+import {motion,AnimatePresence} from 'framer-motion'
 
 const Testimonials = () => {
 
@@ -89,6 +91,13 @@ const Testimonials = () => {
 
     return (
         <div>
+            <AnimatePresence>
+                <motion.div
+                    initial={{ opacity: 0, y: 15 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    exit={{ opacity: 0, y: 15 }}
+                    transition={0.25}
+                >
             <SubheroSection info={info}/>
          
             <section className="py-14 mb-40">
@@ -127,6 +136,8 @@ const Testimonials = () => {
                     </div>
                 </div>
             </section>
+            </motion.div>
+            </AnimatePresence>
         </div>
     )
 }

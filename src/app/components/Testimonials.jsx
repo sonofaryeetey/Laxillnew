@@ -3,6 +3,7 @@
 import React from 'react'
 import { useState } from 'react'
 import Link from 'next/link'
+import {motion} from 'framer-motion'
 
 const testimonials = [
     {
@@ -54,7 +55,13 @@ setTimeout(role, 4000)
 
   return (
     <section className="py-14 testimonials">
-            <div className="max-w-screen-xl mx-auto py-10 px-4 md:px-8 card-testimonials">
+            <motion.div 
+            className="max-w-screen-xl mx-auto py-10 px-4 md:px-8 card-testimonials"
+            initial={{opacity:-1,}}
+              whileInView={{opacity:1,} }
+              viewport={{once:true, amount:0.7}}
+              transition={{ duration:1, ease:"easeOut"}}
+            >
                 <div className="max-w-3xl mx-auto text-center">
                     <h3 className="text-indigo-600 font-semibold pb-6">What people are saying</h3>
                     <ul>
@@ -102,7 +109,7 @@ setTimeout(role, 4000)
                     </div>
                 </div>
 
-            </div>
+            </motion.div>
         </section>
   )
 }

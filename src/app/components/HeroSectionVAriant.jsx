@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import React from 'react'
+import { motion, AnimatePresence, } from 'framer-motion'
 
 const HeroSectionVAriant = () => {
     return (
@@ -17,16 +18,28 @@ const HeroSectionVAriant = () => {
             </div>
             <div className="container-header">
                 <div className="content-new">
-                    <div className="content-new-text">
+                    <motion.div className="content-new-text"
+                        initial={{ opacity: 0, y: -30 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        transition={{ delay: 0.3 , duration:0.55, ease:"easeOut" }}
+                    >
                         <h1>Make Smart Decisions And Drive Profitability Through Insights </h1>
                         <p>Unlock the potential of your business through data-driven insights that fuel growth
-and innovation. Empower your company to leverage data for informed decision-
-making, streamlined operations, and accelerated expansion.</p>
-                        <button className='buttonplane w-full'><Link href='/Contact'>Get started</Link></button>
-                    </div>
-                    <div className="content-new-img">
+                            and innovation. Empower your company to leverage data for informed decision-
+                            making, streamlined operations, and accelerated expansion.</p>
+                        <motion.button
+                            initial={{ opacity: 1, y: 0 }}
+                            animate={{ opacity: 1, y: 0 }}
+                            transition={{ }} 
+                            className='buttonplane w-full'><Link href='/Contact'>Get started</Link></motion.button>
+                    </motion.div>
+                    <motion.div className="content-new-img"
+                        initial={{ opacity: 0, x: 30 }}
+                        animate={{ opacity: 1, x: 0 }}
+                        transition={{ delay: 0.4,duration:0.85, ease:'easeOut' }}
+                    >
                         <img src="images/Laxill_hero.png" alt="heroNew" />
-                    </div>
+                    </motion.div>
 
                 </div>
             </div>

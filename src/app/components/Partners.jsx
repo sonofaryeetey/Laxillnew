@@ -1,5 +1,6 @@
 import React from 'react'
 import Stats from './Stats'
+import {motion} from 'framer-motion'
 
 const Partners = () => {
     return (
@@ -17,17 +18,40 @@ const Partners = () => {
                 <div className="underline"></div>
                 <div className='partners-wrapper'>
                     <div className="partners-text">
-                        <h1>Partner Program</h1>
-                        <p className='py-5'>Embraced by a roster of rapidly expanding
+                        <motion.h1
+                        initial={{opacity:0, x:-100}}
+                        whileInView={{opacity:1, x:0,} }
+                        viewport={{once:true, amount:0.7}}
+                        transition={{duration:0.7, ease:"easeOut"}}
+                        
+                        >Partner Program</motion.h1>
+                        < motion.p className='py-5' 
+                            initial={{opacity:0, x:-100}}
+                            whileInView={{opacity:1, x:0,} }
+                            viewport={{once:true, amount:0.7}}
+                            transition={{duration:0.7, ease:"easeOut"}}
+                        
+                        >Embraced by a roster of rapidly expanding
                             enterprises, collaboration through real-life stories
                             empowers technology, channel, and portfolio partners
                             to provide unparalleled solutions in the realm of
-                            comprehensive analytics automation and management.</p>
-                            <button className='partner-button'>Become A Partner</button>
+                            comprehensive analytics automation and management.</motion.p>
+                            <motion.button className='partner-button'
+                                initial={{opacity:0, }}
+                                whileInView={{opacity:1, } }
+                                viewport={{once:true, amount:0.7}}
+                                transition={{duration:0.7, ease:"easeOut"}}
+                            
+                            >Become A Partner</motion.button>
                     </div>
-                    <div className="partner-image-wrapper">
+                    <motion.div className="partner-image-wrapper"
+                        initial={{opacity:0, x:100}}
+                        whileInView={{opacity:1, x:0,} }
+                        viewport={{once:true, amount:0.7}}
+                        transition={{ dealy:0.3,duration:0.7, ease:"easeOut"}}
+                    >
                         <img src="images/man_yellow_bg.png" alt="" srcset="" />
-                    </div>
+                    </motion.div>
                 </div>
 
             </div>
@@ -36,11 +60,25 @@ const Partners = () => {
                 <div className='partners-wrapper bg-color'>
                   
                     <div className="partner-image-wrapper">
-                        <img src="images/imac.png" alt="" srcset="" />
+                        <motion.img src="images/imac.png" alt="" srcset=""
+                        initial={{opacity:0, x:-100}}
+                        whileInView={{opacity:1, x:0,} }
+                        viewport={{once:true, amount:0.7}}
+                        transition={{ dealy:0.3,duration:0.7, ease:"easeOut"}}
+                         />
                     </div>
                     <div className="partners-text">
-                        <h1>Achieve your business goals at an accelerated pace. <br/>Take the first step</h1>
-                        <p className='py-5'>Explore how partnering with Laxill and other industry-leading partners can enable digital tranformation for your business</p>
+                        <motion.h1
+                        initial={{opacity:0, y:-100}}
+                        whileInView={{opacity:1, y:0,} }
+                        viewport={{once:true, amount:0.7}}
+                        transition={{ duration:0.7, ease:"easeOut"}}>Achieve your business goals at an accelerated pace. <br/>Take the first step</motion.h1>
+                        <motion.p className='py-5'
+                        initial={{opacity:0, y:100}}
+                        whileInView={{opacity:1, y:0} }
+                        viewport={{once:true, amount:0.7}}
+                        transition={{ dealy:0.3,duration:0.7, ease:"easeOut"}}
+                        >Explore how partnering with Laxill and other industry-leading partners can enable digital tranformation for your business</motion.p>
                             {/* <button className='partner-button'>Become A Partner</button> */}
                     </div>
                 </div>

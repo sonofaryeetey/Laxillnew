@@ -1,7 +1,9 @@
+"use client"
 import React from 'react'
 import aboutmini from "../../../public/images/aboutUsMini.jpeg"
 import Link from 'next/link'
 import SubheroSection from '../components/SubheroSection'
+import {motion,AnimatePresence} from 'framer-motion'
 
 const About = () => {
 
@@ -71,6 +73,13 @@ const About = () => {
     }
     return (
         <div>
+            <AnimatePresence>
+        <motion.div
+        initial={{opacity:0, y:15}}
+        animate={{opacity:1, y:0}}
+        exit={{opacity:0, y:15}}
+        transition={0.25}
+        >
             <SubheroSection info={info} />
             {/* <section className="relative overflow-hidden py-28 px-4 bg-gray-900 md:px-8">
                 <div className="w-full h-full rounded-full bg-gradient-to-r from-[#58AEF1] to-pink-500 absolute -top-12 -right-14 blur-2xl opacity-10"></div>
@@ -270,6 +279,8 @@ const About = () => {
                     </p>
                 </div>
             </section>
+            </motion.div>
+            </AnimatePresence>
         </div>
     )
 }

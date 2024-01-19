@@ -16,6 +16,7 @@ body {
 
 }
 
+
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
@@ -54,6 +55,15 @@ body {
   font-weight: 700;
   color: var(--font-color);
 
+}
+
+.nav li a:hover{
+  color:rgb(255, 0, 93) 
+}
+
+
+.highlight{
+  color:rgb(255, 0, 93) !important;
 }
 
 
@@ -822,6 +832,8 @@ h1{
   top: 0;
   left: 0;
 }
+
+
 
 .subherosection {
   width: 100%;

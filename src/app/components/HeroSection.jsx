@@ -1,6 +1,7 @@
 import React from 'react'
 import heroman from '../../../public/images/heroman.jpg'
 import herowoman from '../../../public/images/herowman.jpg'
+import {motion, AnimatePresence} from 'framer-motion'
 
 const HeroSection = () => {
     return (
@@ -11,12 +12,15 @@ const HeroSection = () => {
             <div className="overlay"></div>
             <div className="container px-10">
                 <div className="content">
-                    <div>
+                    <motion.div
+                    initial={{opacity:0, x:-20}}
+                    animate={{opacity:1, x:0}}
+                    >
                         <p>CONNECT WITH US</p>
                         <h2 className='text-3xl md:text-5xl'>Data is power. <br></br><span className='text-gradient'>We help you harness it.</span></h2>
                         <p className='my-6 w-85'> Providing insights from raw data to drive strategic decision-making and optimize business operations.</p>
                         <button className='button'>Get started</button>
-                    </div>
+                    </motion.div>
 
                     <div className=' img-holder sm:hidden md:block'>
                         <div className="img-card
