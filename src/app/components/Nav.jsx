@@ -66,10 +66,10 @@ const Nav = () => {
                         {
                             navigation.map((item, idx) => {
                                 return (
-                                    <motion.div
+                                    <motion.div key={idx}
                                     whileHover={{scale:1.1}}
                                     >
-                                        <li key={idx} >
+                                        <li  >
                                         <a href={item.path} className={`${path===item.path? " highlight":""}  hover:text-indigo-600 px-2`}    >
                                             {item.title}
                                         </a>
