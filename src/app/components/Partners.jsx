@@ -20,15 +20,15 @@ const Partners = () => {
                     <div className="partners-text">
                         <motion.h1
                         initial={{opacity:0, x:-100}}
-                        whileInView={{opacity:1, x:0,} }
-                        viewport={{once:true, amount:0.7}}
+                        whileInView={{opacity:1, x:0} }
+                        viewport={{once:true}}
                         transition={{duration:0.7, ease:"easeOut"}}
                         
                         >Partner Program</motion.h1>
                         < motion.p className='py-5' 
                             initial={{opacity:0, x:-100}}
-                            whileInView={{opacity:1, x:0,} }
-                            viewport={{once:true, amount:0.7}}
+                            whileInView={{opacity:1, x:0} }
+                            viewport={{once:true, }}
                             transition={{duration:0.7, ease:"easeOut"}}
                         
                         >Embraced by a roster of rapidly expanding

@@ -11,7 +11,7 @@ const Cta = () => {
                     <motion.h3
                         initial={{ opacity: 0, y: -100 }}
                         whileInView={{ opacity: 1, y: 0, }}
-                        viewport={{ once: true, amount: 0.7 }}
+                        viewport={{ once: true,  }}
                         transition={{ duration: 0.7, ease: "easeOut" }} className="text-3xl  font-bold md:text-5xl">
                         {/* Take your business to the  <span className="text-gradient">Next Level</span> */}
                         Real-Time Reporting
@@ -19,7 +19,7 @@ const Cta = () => {
                     < motion.ul
                         initial={{ opacity: 0, y: 100 }}
                         whileInView={{ opacity: 1, y: 0, }}
-                        viewport={{ once: true, amount: 0.7 }}
+                        viewport={{ once: true,  }}
                         transition={{ dealy: 0.3, duration: 0.7, ease: "easeOut" }}>
                         <li>
                             <h2 className='text-xl font-bold'>Instantaneous Insights:</h2>
