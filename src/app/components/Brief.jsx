@@ -7,9 +7,9 @@ const Brief = () => {
       <div className="container">
         <div className="brief-info">
           < motion.h2
-            initial={{ opacity: 0, x: -100 }}
-            whileInView={{ opacity: 1, x: 0, }}
-            viewport={{ once: true, amount: 0.9 }}
+            initial={{ opacity: 0, y: -100 }}
+            whileInView={{ opacity: 1, y: 0, }}
+            viewport={{ once: true,  }}
             transition={{ duration: 0.7, ease: "easeOut" }}
 
           > Utilize meaningful
@@ -18,7 +18,7 @@ const Brief = () => {
           <motion.div className='bold'
             initial={{ opacity: 0, x: 100 }}
             whileInView={{ opacity: 1, x: 0, }}
-            viewport={{ once: true, amount: 0.9 }}
+            viewport={{ once: true}}
             transition={{ delay: 0.3, duration: 0.7, ease: "easeOut" }}>
             <h5 className='text-xl text-white font-bold'
 
