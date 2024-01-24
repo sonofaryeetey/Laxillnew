@@ -13,7 +13,7 @@ const Partners = () => {
             backgroundPositionY:'70px',
 
             }}>
-            <div className="container-header">
+            <div className="container_header">
                 <h2 className='py-5 text-align'>Our Partners</h2>
                 <div className="underline"></div>
                 <div className='partners-wrapper'>
@@ -48,14 +48,14 @@ const Partners = () => {
                         initial={{opacity:0, y:100}}
                         whileInView={{opacity:1, y:0,} }
                         viewport={{once:true, amount:0.7}}
-                        transition={{ dealy:0.3,duration:0.7, ease:"easeOut"}}
+                        transition={{ duration:0.7, ease:"easeOut"}}
                     >
                         <img src="images/man_yellow_bg.png" alt="" srcset="" />
                     </motion.div>
                 </div>
 
             </div>
-            <div className="container-header">
+            <div className="container_header">
                 
                 <div className='partners-wrapper bg-color'>
                   
@@ -71,8 +71,8 @@ const Partners = () => {
                         <motion.h1
                         initial={{opacity:0, y:-100}}
                         whileInView={{opacity:1, y:0,} }
-                        viewport={{once:true, amount:0.7}}
-                        transition={{ duration:0.7, ease:"easeOut"}}>Achieve your business goals at an accelerated pace. <br/>Take the first step</motion.h1>
+                        viewport={{once:true, amount:1}}
+                        transition={{ duration:0.7, ease:"easeOut"}}>Achieve your business goals at an accelerated pace. Take the first step</motion.h1>
                         <motion.p className='py-5'
                         initial={{opacity:0, y:100}}
                         whileInView={{opacity:1, y:0} }

@@ -7,28 +7,28 @@ import {motion} from 'framer-motion'
 
 const testimonials = [
     {
-        avatar: "https://api.uifaces.co/our-content/donated/xZ4wg2Xj.jpg",
-        name: "Martin escobar",
-        title: "Founder of meta",
-        quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et est hendrerit, porta nunc vitae, gravida justo. Nunc fermentum magna lorem, euismod volutpat arcu volutpat et."
+        avatar: "images/herowoman.jpg",
+        name: "Elizabeth Brago",
+        title: "Founder of Liznell Company Limited ",
+        quote: "With Laxill’s guidance, we have gained the insight to enhance customer satisfaction. By adopting digital technologies, we have been able to harness our data and make informed decisions."
     },
     {
         avatar: "https://randomuser.me/api/portraits/women/79.jpg",
-        name: "Angela stian",
-        title: "Product designer",
-        quote: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout, that the point of using Lorem Ipsum."
+        name: "Andrew Kwabena",
+        title: "Small Business Owner",
+        quote: "Since implementing the strategies recommended by team laxill, we've witnessed a significant improvement in the efficiency of our operations. The analytics-driven approach has allowed us to make data-backed decisions, leading to more informed strategies and, ultimately, an increase in our profit margins."
     },
     {
         avatar: "https://randomuser.me/api/portraits/men/86.jpg",
-        name: "Karim ahmed",
-        title: "DevOp engineer",
-        quote: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati "
+        name: "Douglas Appiah",
+        title: "Shipping Agent",
+        quote: "We couldn't be happier with the innovative data analytics service from the team at Laxill. It has been a game-changer for our small business. The insights provided have empowered us to make smarter decisions, optimize routes, and enhance overall efficiency. Grateful for the partnership! "
     },
     {
         avatar: "https://randomuser.me/api/portraits/men/86.jpg",
-        name: "Karim ahmed",
-        title: "DevOp engineer",
-        quote: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati "
+        name: "Kristina Jenay",
+        title: "Cybersecurity Analyst",
+        quote: "Our partnership with Laxill Limited has been nothing short of transformative. Their expert guidance on leveraging data analytics to enhance our business's digital transformation and fortify security monitoring has been invaluable."
     },
 ]
 
@@ -76,7 +76,7 @@ setTimeout(role, 4000)
                                                 </p>
                                             </blockquote>
                                             <div className="mt-6">
-                                                <img src={item.avatar} className="w-16 h-16 mx-auto rounded-full" />
+                                                {/* <img src={item.avatar} className="w-16 h-16 mx-auto rounded-full" /> */}
                                                 <div className="mt-3">
                                                     <span className="block text-gray-800 font-semibold">{item.name}</span>
                                                     <span className="block text-gray-600 text-sm mt-0.5">{item.title}</span>

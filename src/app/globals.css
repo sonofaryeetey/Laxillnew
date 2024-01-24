@@ -261,7 +261,7 @@ body {
 
 .buttonplane {
   padding: 12px 0;
-
+  max-width:200px;
   background: #2e0268;
   margin: 5% 0;
   color: white;
@@ -630,7 +630,7 @@ body {
 
 .partners-text {
   width:80%;  
-  padding-top:10%;
+  padding-top:5%;
   
   
 }
