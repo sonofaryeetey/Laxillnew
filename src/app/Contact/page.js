@@ -2,7 +2,7 @@
 import React from 'react'
 import SubheroSection from '../components/SubheroSection'
 import Link from 'next/link'
-import { motion,AnimatePresence } from 'framer-motion'
+import { motion, AnimatePresence } from 'framer-motion'
 
 const Contact = () => {
     const info = {
@@ -58,9 +58,9 @@ const Contact = () => {
                             <div className='contact flex'>
                                 <div className='contact-text'>
                                     <h1>Contact Us</h1>
-                                    <p>For more information get in touch by filling the form or contact us on <Link href="+233
-                        
-                        +233208704417">+233208704417</Link></p>
+                                    <p>Looking to get in touch, need help with a problem, or
+                                        interested in more information? Fill out the form to contact
+                                        us directly or email us at <Link href="https://support@laxill.com"> support@laxill.com.</Link></p>
                                 </div>
                                 <div className=" form-wrapper">
 
