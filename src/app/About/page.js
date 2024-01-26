@@ -113,6 +113,7 @@ const About = () => {
 
                                     initial={{ opacity: 0, scale: 1.5 }}
                                     whileInView={{ opacity: 1, scale: 1 }}
+                                    viewport={{once:true}}
                                     transition={{ delay: 0.5, duration: 2, ease: "easeInOut" }}
                                 />
 

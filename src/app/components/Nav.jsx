@@ -2,7 +2,7 @@
 
 import React from 'react'
 import { useState } from 'react'
-import logo from "../../../public/images/laxilLogo.png"
+import logo from "../../../public/images/logoupdate.png"
 import { usePathname } from 'next/navigation'
 import {motion} from 'framer-motion'
 
@@ -27,7 +27,7 @@ const Nav = () => {
         <nav className="nav w-full  md:border-0 md:static">
             <div className="  items-center px-4 max-w-screen-xl mx-auto md:flex md:px-8">
                 <div className=" logo flex items-center justify-between py-3 md:py-3 md:block">
-                    <a href="javascript:void(0)">
+                    <a href="/">
                         <img
                             src={logo.src}
                             width={80}

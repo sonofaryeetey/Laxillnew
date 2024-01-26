@@ -42,7 +42,7 @@ body {
 }
 
 .nav .logo img {
-  width: 40px;
+  width: 100px;
 }
 
 .small {
@@ -268,11 +268,27 @@ body {
   border-radius: 30px;
   font-weight: 700;
   transition: all 500ms ease-in-out;
+  margin-right:50px;
+
+}
+.buttonoutline {
+  padding: 12px 0;
+  max-width: 200px;
+  background: transparent;
+  margin: 5% 0;
+  border:1px solid white;
+  color: white;
+  border-radius: 30px;
+  font-weight: 700;
+  transition: all 500ms ease-in-out;
 
 }
 
-.content-new button:hover {
+.content-new .buttonplane:hover {
   background: #180235
+}
+.content-new .buttonoutline:hover {
+  background: #b98ef14c
 }
 
 .content-new-text {
@@ -1080,6 +1096,10 @@ h1 {
     padding-top: 350px;
     justify-content: center;
 
+  }
+
+  .about-section .media{
+    height:400px;
   }
 
   .media-stats{
