@@ -39,7 +39,7 @@ const HeroSectionVAriant = () => {
                                 initial={{ opacity: 1, y: 0 }}
                                 animate={{ opacity: 1, y: 0 }}
                                 transition={{ }} 
-                                className='buttonoutline w-full'><Link href='/Contact'>Explore</Link>
+                                className='buttonoutline w-full'><Link href=''>Explore</Link>
                             </motion.button>
                         </div>
 
