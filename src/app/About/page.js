@@ -355,11 +355,11 @@ Limited the growth-minded company that it is today. </p>
 
                             <p className='text-3xl font-bold'>Meet The Team</p>
                             <div className="mt-12">
-                                <ul className="grid gap-8 sm:grid-cols-2 md:grid-cols-3">
+                                <ul className="grid gap-8 sm:grid-cols-2 md:grid-cols-4">
                                     {
                                         team.map((item, idx) => (
                                             <li key={idx}>
-                                                <div className="w-full h-60 sm:h-52 md:h-56">
+                                                <div className="w-60 h-60 sm:h-52 md:h-56">
                                                     <img
                                                         src={item.avatar}
                                                         className="w-full h-full object-cover object-center shadow-md rounded-xl"
@@ -367,7 +367,7 @@ Limited the growth-minded company that it is today. </p>
                                                     />
                                                 </div>
                                                 <div className="mt-4">
-                                                    <h4 className="text-lg text-gray-700 font-semibold">{item.name}</h4>
+                                                    <h4 className="text-lg  font-semibold">{item.name}</h4>
                                                     <p className="">{item.title}</p>
                                                     {/* <p className="text-gray-600 mt-2">{item.desc}</p> */}
                                                     <div className="mt-3 flex gap-4 text-gray-400 hidden">
@@ -388,7 +388,7 @@ Limited the growth-minded company that it is today. </p>
                                 </ul>
                             </div>
 
-                                    <h3 className='text-3xl font-bold mt-16'>Internation Business Advisors</h3>
+                                    <h3 className='text-3xl font-bold mt-16'>International Business Advisors</h3>
                             <div className="mt-12">
 
 
@@ -399,7 +399,7 @@ Limited the growth-minded company that it is today. </p>
                                                 <div className="w-full h-60 sm:h-52 md:h-56">
                                                     <img
                                                         src={item.avatar}
-                                                        className="w-full h-full object-cover object-center shadow-md rounded-xl"
+                                                        className="w-60 h-full object-cover object-center shadow-md rounded-xl"
                                                         alt=""
                                                     />
                                                 </div>
