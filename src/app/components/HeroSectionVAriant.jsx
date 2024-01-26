@@ -18,6 +18,7 @@ const HeroSectionVAriant = () => {
             </div>
             <div className="container_header">
                 <div className="content-new">
+                    <div className='spacer'></div>
                     <motion.div className="content-new-text"
                         initial={{ opacity: 0, y: -30 }}
                         animate={{ opacity: 1, y: 0 }}

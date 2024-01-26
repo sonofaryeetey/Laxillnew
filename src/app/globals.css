@@ -953,7 +953,7 @@ h1 {
 
 .overlay {
   background-color: var(--font-color);
-  opacity: .65;
+  opacity: .35;
   width: 100%;
   height: 100%;
   position: absolute;
@@ -1096,6 +1096,14 @@ h1 {
     padding-top: 350px;
     justify-content: center;
 
+  }
+
+  .spacer{
+    padding-top:80px;
+  }
+
+  .section-mtt {
+    padding-top:80px;
   }
 
   .about-section .media{

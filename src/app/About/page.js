@@ -103,6 +103,7 @@ const About = () => {
             </section> */}
                     <section className='about-section'>
                         <div className='container_header'>
+                            <div className='spacer'></div>
                             <div className='about-text'>
                                 <h5 className='text-white'>ABOUT LAXILL</h5>
 
@@ -359,7 +360,7 @@ Limited the growth-minded company that it is today. </p>
                                     {
                                         team.map((item, idx) => (
                                             <li key={idx}>
-                                                <div className="w-60 h-60 sm:h-52 md:h-56">
+                                                <div className="w-full md:w-60 h-60 sm:h-52 md:h-56">
                                                     <img
                                                         src={item.avatar}
                                                         className="w-full h-full object-cover object-center shadow-md rounded-xl"
@@ -399,7 +400,7 @@ Limited the growth-minded company that it is today. </p>
                                                 <div className="w-full h-60 sm:h-52 md:h-56">
                                                     <img
                                                         src={item.avatar}
-                                                        className="w-60 h-full object-cover object-center shadow-md rounded-xl"
+                                                        className=" w-full md:w-60 h-full object-cover object-center shadow-md rounded-xl"
                                                         alt=""
                                                     />
                                                 </div>
