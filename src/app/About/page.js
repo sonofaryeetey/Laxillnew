@@ -115,7 +115,7 @@ const About = () => {
                             <div className='about-image'>
                                 <motion.img
 
-                                    src="images/worldmap.png"
+                                    src="images/worldmap-eps.png"
 
                                     initial={{ opacity: 0, scale: 1.5 }}
                                     whileInView={{ opacity: 1, scale: 1 }}
