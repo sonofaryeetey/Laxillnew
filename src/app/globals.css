@@ -42,7 +42,7 @@ body {
 }
 
 .nav .logo img {
-  width: 100px;
+  /* width: 100px; */
 }
 
 .small {
@@ -99,6 +99,13 @@ body {
   padding-top: 7%;
 
 
+}
+
+.img-restrict{
+  height:400px;
+  width:100%;
+  /* display:none; */
+  overflow:hidden;
 }
 
 .herovariant .waveTilt {
@@ -240,6 +247,9 @@ body {
     height: 388px;
   }
 }
+
+
+
 
 
 .content-new {
@@ -968,10 +978,18 @@ h1 {
   width: 100%;
   height: 500px;
   background: orange;
+  padding-left:2em;
 }
 
 .subhero-text {
-  text-align: center;
+  /* text-align: center; */
+  /* background:yellow; */
+  padding-top:150px;
+  
+}
+
+.subhero-text h1{
+  width:70%;
 }
 
 .subhero-text h3 {
@@ -982,8 +1000,8 @@ h1 {
 .subhero-container {
   height: 100%;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: left;
+  /*  */
   z-index: 999;
 }
 
@@ -1001,6 +1019,13 @@ h1 {
   margin-bottom: 5%;
 }
 
+
+.button-about{
+  padding:15px 40px;
+  background:#8800ff;
+  border-radius:25px;
+  color:white;
+}
 
 .form-wrapper {
   width: 100%;

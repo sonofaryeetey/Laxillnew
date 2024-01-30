@@ -107,8 +107,8 @@ const About = () => {
                             <div className='about-text'>
                                 <h5 className='text-white'>ABOUT LAXILL</h5>
 
-                                <h1 className='w-full text-center text-h1   md:w-full md:text-5xl'>
-                                    Enabling businesses drive profits through
+                                <h1 className='w-full text-center text-h1   md:w-full md:text-4xl'>
+                                    Enabling businesses drive profits <span className='newText-gradient'> globally</span> through
                                     analytical <span className='newText-gradient'>digital transformation</span>.
                                 </h1>
                             </div>
@@ -200,7 +200,9 @@ is <span className='text-gradient2'>continually expanding.</span>
                             <div className='zod'>
                                 <div className="items-center gapper centerize gap-x-10  sm:px-4 md:px-0 lg:flex">
                                     <div className="flex-1  lg:block">
-                                        <img src="images/OIG.jpg" className="md:max-w-28 sm:rounded-lg" alt="" />
+                                        <div className='img-restrict'>
+                                        <img src="images/hot-air-baloons.jpg" className="md:max-w-28 sm:rounded-lg" alt="" />
+                                        </div>
                                     </div>
                                     <div className="max-w-xl px-4 space-y-3 mt-6 sm:px-0 md:mt-0 lg:max-w-lg">
                                         {/* <h3 className="text-orange-600 font-semibold">
@@ -210,7 +212,7 @@ is <span className='text-gradient2'>continually expanding.</span>
                                             Drive your <span className='text-gradient'>growth </span>and <span className='text-gradient'>Success</span> with Laxill
                                         </p> */}
                                         <p className="text-gray-800 text-3xl font-semibold md:text-5xl">
-                                            <span className='text-gradient2'>{`2023 & Beyond`}</span> 
+                                            <span className=''>{`2023 & Beyond`}</span> 
                                         </p>
                                         <p className="mt-3 text-gray-600">
                                         Since our establishment in 2014, the team has devoted 
