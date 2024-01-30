@@ -96,7 +96,7 @@ const Testimonials = () => {
                             Customer Stories
                         </h3>
                         <p className="mt-3 text-gray-600 md:text-xl">
-                            Here's what our customers have to say.
+                            {`Here's what our customers have to say.`}
                         </p>
                     </div>
                     <div className="mt-12">

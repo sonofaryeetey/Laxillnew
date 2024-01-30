@@ -23,7 +23,7 @@ const SubheroSection = ({info}) => {
          <div>
           <h1 className=' md:text-4xl pb-6'>Partner with Laxill and gain a competitive edge</h1>
           <p className='  md:text-xl pr-14'>Unlock your business potential with tailored data solutions.</p>
-          <p className='md:text-xl pb-6 pr-14'>Let's transform your data into your most valuable asset together.</p>
+          <p className='md:text-xl pb-6 pr-14'>{`Let's transform your data into your most valuable asset together.`}</p>
 
           <button className='button-about'><Link href="/Contact">Get started</Link></button>
          </div>
