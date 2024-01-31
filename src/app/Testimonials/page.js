@@ -103,7 +103,7 @@ const Testimonials = () => {
                                                 initial={{ opacity: 0, y: 40 }}
                                                 whileInView={{ opacity: 1, y: 0 }}
                                                 viewport={{ once: true, amount: 1 }}
-                                                transition={{duration:0.7, delay:0.3, ease:'easeOut'}}
+                                                transition={{duration:0.7, delay:0.3, ease:'easeOut'}}                                                
                                                 key={idx}
                                                 className="bg-gray-100 p-4 rounded-xl">
                                                 <figure>
@@ -130,6 +130,7 @@ const Testimonials = () => {
                         <div className="container">
                             <div className="testimonial-poster my-20 py-10  px-10 w-3/4 py-10 mx-auto ">
                                 <h2 className=' text-xl font-bold py-10 md:text-3xl md:font-medium '>
+                                   {`
                                     "
                                     At Liznell, managing huge branding and printing projects is time consuming, I'm spending
                                     60% less time on optimizing marketing strategies because of Laxill’s input. I'm able to
@@ -137,6 +138,7 @@ const Testimonials = () => {
                                     it a wonderful, seamless experience.
 
                                     "
+                                   `}
                                 </h2>
 
                                 <h3 className='bg-yellow font-bold'> Elizabeth Brago</h3>
