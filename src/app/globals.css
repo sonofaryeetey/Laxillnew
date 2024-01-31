@@ -1126,8 +1126,7 @@ h1 {
     background-image: url('../../public/images/hot-air-balloons.jpg') !important;
     display:flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    padding-top:40px;
     height:650px;
   }
 
