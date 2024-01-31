@@ -5,7 +5,7 @@ const SubheroSection = ({info}) => {
     
   return (
     <div className="subherosection relative" style={{ 
-                                                    backgroundImage:window!='undefined' && ( window.screen.width >= 900? info.url:"url(./images/hot-air-balloons.jpg)"),
+                                                    backgroundImage:window!='undefined' &&  window.screen.width >= 900? info.url:"url(./images/hot-air-balloons.jpg)",
                                                     backgroundSize:'cover',
                                                     backgroundPosition:'center',
                                                     
