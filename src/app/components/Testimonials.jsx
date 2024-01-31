@@ -3,7 +3,7 @@
 import React from 'react'
 import { useState } from 'react'
 import Link from 'next/link'
-import {motion} from 'framer-motion'
+import { motion } from 'framer-motion'
 
 const testimonials = [
     {
@@ -35,32 +35,32 @@ const testimonials = [
 
 
 const Testimonials = () => {
-const [currentTestimonial, setCurrentTestimonial] = useState(0)
-const [checker, setChecker] = useState(true)
+    const [currentTestimonial, setCurrentTestimonial] = useState(0)
+    const [checker, setChecker] = useState(true)
 
 
-function role(){
-    
-    if ( checker && (currentTestimonial < testimonials.length -1 ) ){
-        setCurrentTestimonial(currentTestimonial+1)
-    }else{
-        setCurrentTestimonial(0)
+    function role() {
+
+        if (checker && (currentTestimonial < testimonials.length - 1)) {
+            setCurrentTestimonial(currentTestimonial + 1)
+        } else {
+            setCurrentTestimonial(0)
+        }
+
     }
-    
-}
 
 
-console.log(currentTestimonial)
-setTimeout(role, 4000)
+    console.log(currentTestimonial)
+    setTimeout(role, 4000)
 
-  return (
-    <section className="py-14 testimonials">
-            <motion.div 
-            className="max-w-screen-xl mx-auto py-10 px-4 md:px-8 card-testimonials"
-            initial={{opacity:-1,}}
-              whileInView={{opacity:1,} }
-              viewport={{once:true, amount:0.7}}
-              transition={{ duration:1, ease:"easeOut"}}
+    return (
+        <section className="py-14 testimonials">
+            <motion.div
+                className="max-w-screen-xl mx-auto py-10 px-4 md:px-8 card-testimonials"
+                initial={{ opacity: -1, }}
+                whileInView={{ opacity: 1, }}
+                viewport={{ once: true, amount: 0.7 }}
+                transition={{ duration: 1, ease: "easeOut" }}
             >
                 <div className="max-w-3xl mx-auto text-center">
                     <h3 className="text-indigo-600 font-semibold pb-6">What people are saying</h3>
@@ -102,16 +102,17 @@ setTimeout(role, 4000)
                         }
                     </ul>
                     <div className="zod">
-                    <button className='button-testimonials'>
-                        <Link href={`/Testimonials`}> See All Testimonials</Link>
-                       
-                    </button>
+                        <button className='button-testimonials'>
+                            <Link href={`/Testimonials`}> See All Testimonials</Link>
+
+                        </button>
                     </div>
                 </div>
 
             </motion.div>
+            
         </section>
-  )
+    )
 }
 
 export default Testimonials

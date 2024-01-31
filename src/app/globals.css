@@ -17,6 +17,8 @@ body {
 }
 
 
+
+
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
@@ -250,7 +252,12 @@ body {
 
 
 
-
+.testimonial-poster{
+  background:#8800ff;
+  color:white;
+  border-radius:40px;
+  text-align:center;
+}
 
 .content-new {
   display: flex;

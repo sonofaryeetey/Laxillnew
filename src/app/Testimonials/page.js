@@ -1,7 +1,8 @@
 "use client"
 import React from 'react'
 import SubheroSection from '../components/SubheroSection'
-import {motion,AnimatePresence} from 'framer-motion'
+
+import { motion, AnimatePresence } from 'framer-motion'
 
 const Testimonials = () => {
 
@@ -48,12 +49,7 @@ const Testimonials = () => {
             title: "Small Business Owner ",
             quote: "Since implementing the strategies recommended by team laxill, we've witnessed a significant improvement in the efficiency of our operations. The analytics-driven approach has allowed us to make data-backed decisions, leading to more informed strategies and, ultimately, an increase in our profit margins."
         },
-        {
-            avatar: "https://randomuser.me/api/portraits/women/79.jpg",
-            name: "Angela stian",
-            title: "Product designer",
-            quote: "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit."
-        },
+
         {
             avatar: "https://randomuser.me/api/portraits/men/86.jpg",
             name: "Douglas Appiah",
@@ -66,15 +62,15 @@ const Testimonials = () => {
             title: "Cybersecurity Analyst",
             quote: "Our partnership with Laxill Limited has been nothing short of transformative. Their expert guidance on leveraging data analytics to enhance our business's digital transformation and fortify security monitoring has been invaluable."
         },
-        
+
     ]
 
-    const info ={
-        url:"url(./images/testimonial-hot-air.png)",
-        Heading:"",
-        Tag:"HAPPY.CLIENTS",
-        Para:"",
-        opacity:"0.4",
+    const info = {
+        url: "url(./images/testimonial-hot-air.png)",
+        Heading: "",
+        Tag: "HAPPY.CLIENTS",
+        Para: "",
+        opacity: "0.4",
     }
 
 
@@ -87,45 +83,69 @@ const Testimonials = () => {
                     exit={{ opacity: 0, y: 15 }}
                     transition={0.25}
                 >
-            <SubheroSection info={info}/>
-         
-            <section className="py-14 mb-40">
-                <div className="max-w-screen-xl mx-auto px-4 md:px-8">
-                    <div className="max-w-xl sm:text-center md:mx-auto">
-                        <h3 className="text-gray-800 text-3xl font-semibold sm:text-4xl">
-                            Customer Stories
-                        </h3>
-                        <p className="mt-3 text-gray-600 md:text-xl">
-                            {`Here's what our customers have to say.`}
-                        </p>
-                    </div>
-                    <div className="mt-12">
-                        <ul className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-                            {
-                                testimonials.map((item, idx) => (
-                                    <li key={idx} className="bg-gray-100 p-4 rounded-xl">
-                                        <figure>
-                                            <div className="flex items-center gap-x-4">
-                                                {/* <img src={item.avatar} className="w-16 h-16 rounded-full" /> */}
-                                                <div>
-                                                    <span className="block text-gray-800 font-semibold">{item.name}</span>
-                                                    <span className="block text-gray-600 text-sm mt-0.5">{item.title}</span>
-                                                </div>
-                                            </div>
-                                            <blockquote>
-                                                <p className="mt-6 text-gray-700">
-                                                    {item.quote}
-                                                </p>
-                                            </blockquote>
-                                        </figure>
-                                    </li>
-                                ))
-                            }
-                        </ul>
-                    </div>
-                </div>
-            </section>
-            </motion.div>
+                    <SubheroSection info={info} />
+
+                    <section className="py-14 mb-40">
+                        <div className="max-w-screen-xl mx-auto px-4 md:px-8">
+                            <div className="max-w-xl sm:text-center md:mx-auto">
+                                <h3 className="text-gray-800 text-3xl font-semibold sm:text-4xl">
+                                    Customer Stories
+                                </h3>
+                                <p className="mt-3 text-gray-600 md:text-xl">
+                                    {`Here's what our customers have to say.`}
+                                </p>
+                            </div>
+                            <div className="mt-12">
+                                <ul className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+                                    {
+                                        testimonials.map((item, idx) => (
+                                            <motion.li
+                                                initial={{ opacity: 0, y: 40 }}
+                                                whileInView={{ opacity: 1, y: 0 }}
+                                                viewport={{ once: true, amount: 1 }}
+                                                transition={{duration:0.7, delay:0.3, ease:'easeOut'}}
+                                                key={idx}
+                                                className="bg-gray-100 p-4 rounded-xl">
+                                                <figure>
+                                                    <div className="flex items-center gap-x-4">
+                                                        {/* <img src={item.avatar} className="w-16 h-16 rounded-full" /> */}
+                                                        <div>
+                                                            <span className="block text-gray-800 font-semibold">{item.name}</span>
+                                                            <span className="block text-gray-600 text-sm mt-0.5">{item.title}</span>
+                                                        </div>
+                                                    </div>
+                                                    <blockquote>
+                                                        <p className="mt-6 text-gray-700">
+                                                            {item.quote}
+                                                        </p>
+                                                    </blockquote>
+                                                </figure>
+                                            </motion.li>
+                                        ))
+                                    }
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div className="container">
+                            <div className="testimonial-poster my-20 py-10  px-10 w-3/4 py-10 mx-auto ">
+                                <h2 className=' text-xl font-bold py-10 md:text-3xl md:font-medium '>
+                                    "
+                                    At Liznell, managing huge branding and printing projects is time consuming, I'm spending
+                                    60% less time on optimizing marketing strategies because of Laxill’s input. I'm able to
+                                    spend more time offering personalized branding solutions for my clients, and Laxill makes
+                                    it a wonderful, seamless experience.
+
+                                    "
+                                </h2>
+
+                                <h3 className='bg-yellow font-bold'> Elizabeth Brago</h3>
+                                <p className='mx-auto'>Chief Executive Officer</p>
+
+                            </div>
+                        </div>
+                    </section>
+                </motion.div>
             </AnimatePresence>
         </div>
     )
