@@ -5,7 +5,7 @@ const SubheroSection = ({info}) => {
     console.log((window.screen.width))
   return (
     <div className="subherosection relative" style={{ 
-                                                    backgroundImage:window && window.screen.width >= 900? info.url:"url(./images/hot-air-balloons.jpg)",
+                                                    backgroundImage:window!=undefined && ( window.screen.width >= 900? info.url:"url(./images/hot-air-balloons.jpg)"),
                                                     backgroundSize:'cover',
                                                     backgroundPosition:'center',
                                                     
@@ -31,7 +31,7 @@ const SubheroSection = ({info}) => {
 
     </div>
 
- <div className='overlay' style={window && window.screen.width < 901? {opacity:info.opacity}: {opacity:0}}></div>
+ <div className='overlay' style={window !=undefined &&( window.screen.width < 901? {opacity:info.opacity}: {opacity:0})}></div>
 
 </div>
   )
