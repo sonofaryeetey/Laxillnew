@@ -1127,6 +1127,10 @@ h1 {
     background-image: url('../../public/images/hot-air-balloons.jpg') !important;
   }
 
+  .subherosection .overlay{
+    opacity:0.5 !important
+  }
+
   .spacer{
     padding-top:80px;
   }

@@ -35,7 +35,7 @@ const SubheroSection = ({ info }) => {
 
       </div>
 
-      <div className='overlay' style={window != 'undefined' && (window.screen.width < 901 ? { opacity: info.opacity } : { opacity: 0 })}></div>
+      <div className='overlay' style={{ opacity: 0 }}></div>
 
     </div>
   )
