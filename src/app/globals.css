@@ -977,7 +977,6 @@ h1 {
 .subherosection {
   width: 100%;
   height: 500px;
-  background: orange;
   padding-left:2em;
 }
 
@@ -1125,6 +1124,11 @@ h1 {
 
   .subherosection{
     background-image: url('../../public/images/hot-air-balloons.jpg') !important;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:650px;
   }
 
   .subherosection .overlay{
