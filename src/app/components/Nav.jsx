@@ -2,7 +2,7 @@
 
 import React from 'react'
 import { useState } from 'react'
-import logo from "../../../public/images/logoupdate.png"
+import logo from "../../../public/images/logov2.png"
 import { usePathname } from 'next/navigation'
 import {motion} from 'framer-motion'
 
