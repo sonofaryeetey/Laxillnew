@@ -2,10 +2,10 @@ import Link from 'next/link'
 import React from 'react'
 
 const SubheroSection = ({info}) => {
-    console.log(info)
+    console.log((window.screen.width))
   return (
     <div className="subherosection relative" style={{ 
-                                                    backgroundImage: info.url,
+                                                    backgroundImage:window.screen.width>= 900? info.url:"url(./images/hot-air-balloons.jpg)",
                                                     backgroundSize:'cover',
                                                     backgroundPosition:'center',
                                                     
@@ -31,7 +31,7 @@ const SubheroSection = ({info}) => {
 
     </div>
 
- <div className='overlay' style={{opacity:info.opacity}}></div>
+ <div className='overlay' style={window.screen.width < 901? {opacity:info.opacity}: {opacity:0}}></div>
 
 </div>
   )

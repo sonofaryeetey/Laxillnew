@@ -1145,6 +1145,14 @@ h1 {
     padding-bottom:30px;
 }
 
+
+.subhero-text h1{
+  color:white;
+}
+
+.subhero-text p{
+  color:white;
+}
   
 
   .herovariant .waveSvg {

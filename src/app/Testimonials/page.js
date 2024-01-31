@@ -74,7 +74,7 @@ const Testimonials = () => {
         Heading:"",
         Tag:"HAPPY.CLIENTS",
         Para:"",
-        opacity:"0",
+        opacity:"0.4",
     }
 
 
