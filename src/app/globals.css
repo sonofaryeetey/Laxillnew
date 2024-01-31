@@ -1031,6 +1031,11 @@ h1 {
   background:#8800ff;
   border-radius:25px;
   color:white;
+  transition:all 500ms ease-in
+}
+
+.button-about:hover{
+  background:#4a0487;
 }
 
 .form-wrapper {
