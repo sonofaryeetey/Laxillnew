@@ -5,7 +5,7 @@ import React, { useState, useEffect } from 'react'
 const SubheroSection = ({ info }) => {
 
   const style = {
-    backgroundImage: (typeof window !== 'undefined' && window.screen.width <= 900 ? "url(./images/hot-air-balloons.jpg)" : info.url),
+    backgroundImage:  info.url,
     backgroundSize: 'cover',
     backgroundPosition: 'center',
   }

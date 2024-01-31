@@ -1123,6 +1123,10 @@ h1 {
 
   }
 
+  .subherosection{
+    background-image: url('../../public/images/hot-air-balloons.jpg') !important;
+  }
+
   .spacer{
     padding-top:80px;
   }
