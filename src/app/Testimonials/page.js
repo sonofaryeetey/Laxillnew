@@ -129,7 +129,12 @@ const Testimonials = () => {
 
                         <div className="container">
                             <div className="testimonial-poster my-20 py-10  px-10 w-3/4 py-10 mx-auto ">
-                                <h2 className=' text-xl font-bold py-10 md:text-3xl md:font-medium '>
+                                <motion.h2
+                                initial={{ opacity: 0, y: 10 }}
+                                whileInView={{ opacity: 1, y: 0 }}
+                                viewport={{ once: true }}
+                                transition={{ duration: 1.2,  ease: 'easeOut' }}
+                                 className=' text-xl font-bold py-10 md:text-3xl md:font-medium '>
                                    {`
                                     "
                                     At Liznell, managing huge branding and printing projects is time consuming, I'm spending
@@ -139,7 +144,7 @@ const Testimonials = () => {
 
                                     "
                                    `}
-                                </h2>
+                                </motion.h2>
 
                                 <h3 className='bg-yellow font-bold'> Elizabeth Brago</h3>
                                 <p className='mx-auto'>Chief Executive Officer</p>
