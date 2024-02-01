@@ -913,7 +913,7 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  opacity: 0.55;
+  opacity: 0.75;
   z-index: 0;
 }
 
