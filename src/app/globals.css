@@ -103,11 +103,11 @@ body {
 
 }
 
-.img-restrict{
-  height:400px;
-  width:100%;
+.img-restrict {
+  height: 400px;
+  width: 100%;
   /* display:none; */
-  overflow:hidden;
+  overflow: hidden;
 }
 
 .herovariant .waveTilt {
@@ -252,11 +252,11 @@ body {
 
 
 
-.testimonial-poster{
-  background:#8800ff;
-  color:white;
-  border-radius:40px;
-  text-align:center;
+.testimonial-poster {
+  background: #8800ff;
+  color: white;
+  border-radius: 40px;
+  text-align: center;
 }
 
 .content-new {
@@ -285,15 +285,16 @@ body {
   border-radius: 30px;
   font-weight: 700;
   transition: all 500ms ease-in-out;
-  margin-right:50px;
+  margin-right: 50px;
 
 }
+
 .buttonoutline {
   padding: 12px 0;
   max-width: 200px;
   background: transparent;
   margin: 5% 0;
-  border:1px solid white;
+  border: 1px solid white;
   color: white;
   border-radius: 30px;
   font-weight: 700;
@@ -304,6 +305,7 @@ body {
 .content-new .buttonplane:hover {
   background: #180235
 }
+
 .content-new .buttonoutline:hover {
   background: #b98ef14c
 }
@@ -360,6 +362,7 @@ body {
   color: transparent;
   /* display:none; */
 }
+
 .text-gradient2 {
   background: linear-gradient(to right, rgb(0 224 48) 0%, rgb(0 161 255));
   background-clip: text;
@@ -368,67 +371,67 @@ body {
 }
 
 
-.newText-gradient{
-  background:linear-gradient(to right, rgb(100, 242, 255) 0%, rgb(231, 218, 230) 100%);
-  background-clip:text;
-  color:transparent;
-    
+.newText-gradient {
+  background: linear-gradient(to right, rgb(100, 242, 255) 0%, rgb(231, 218, 230) 100%);
+  background-clip: text;
+  color: transparent;
+
 }
 
-.about-section .media-wrapper{
+.about-section .media-wrapper {
   padding: 5%
 }
 
-.about-section .media{
-  position:relative;
-height:700px;
-border-radius: 20px;
-background:yellow;
-padding:10%;
-display:flex;
-align-items: end;
-overflow:hidden;
+.about-section .media {
+  position: relative;
+  height: 700px;
+  border-radius: 20px;
+  background: yellow;
+  padding: 10%;
+  display: flex;
+  align-items: end;
+  overflow: hidden;
 }
 
-.weare img{
-  width:300px;  
+.weare img {
+  width: 300px;
 }
 
 
-.about-section .media-text  h3{
-  font-weight:800;
-  margin-top:20px;
+.about-section .media-text h3 {
+  font-weight: 800;
+  margin-top: 20px;
 }
 
-.about-section .media-text{
-  max-width:700px;
-  z-index:1;
+.about-section .media-text {
+  max-width: 700px;
+  z-index: 1;
 }
 
-.media-stats{
-  display:flex;
+.media-stats {
+  display: flex;
   justify-content: center;
-  
+
 }
 
-.stats-children{
-  display:flex;
+.stats-children {
+  display: flex;
   justify-content: space-around;
-  flex-grow:1;
+  flex-grow: 1;
 }
 
-.gapper{
-  gap:10em
+.gapper {
+  gap: 10em
 }
 
-.media-stats h4{
-  font-size:3em;
-  font-weight:800;
-  color:rgb(123, 238, 242);
+.media-stats h4 {
+  font-size: 3em;
+  font-weight: 800;
+  color: rgb(123, 238, 242);
 }
 
-.media-stats p{
-  color:white;
+.media-stats p {
+  color: white;
 }
 
 .divider {
@@ -669,6 +672,7 @@ overflow:hidden;
   /* background-color: var(--font-color); */
   padding: 0 10%;
   background-image: linear-gradient(95.12deg, #4747eb .48%, #a533ff 99.68%);
+  overflow: hidden;
 
 }
 
@@ -877,7 +881,7 @@ h1 {
 
 .about-mission {
   background: var(--font-color);
-  display:none;
+  display: none;
 
 }
 
@@ -885,8 +889,8 @@ h1 {
   /* height:1700px; */
   background: #0000ff;
   background: #8800ff;
-  padding-bottom:10%;
-  overflow:hidden;
+  padding-bottom: 10%;
+  overflow: hidden;
 
 }
 
@@ -918,7 +922,7 @@ h1 {
 }
 
 .about-text h1 {
-  margin:0 auto;
+  margin: 0 auto;
   font-weight: 900;
   color: white;
   /* font-size:3.0em; */
@@ -984,18 +988,18 @@ h1 {
 .subherosection {
   width: 100%;
   height: 500px;
-  padding-left:2em;
+  padding-left: 2em;
 }
 
 .subhero-text {
   /* text-align: center; */
   /* background:yellow; */
-  padding-top:150px;
-  
+  padding-top: 150px;
+
 }
 
-.subhero-text h1{
-  width:70%;
+.subhero-text h1 {
+  width: 70%;
 }
 
 .subhero-text h3 {
@@ -1026,16 +1030,16 @@ h1 {
 }
 
 
-.button-about{
-  padding:15px 40px;
-  background:#8800ff;
-  border-radius:25px;
-  color:white;
-  transition:all 500ms ease-in
+.button-about {
+  padding: 15px 40px;
+  background: #8800ff;
+  border-radius: 25px;
+  color: white;
+  transition: all 500ms ease-in
 }
 
-.button-about:hover{
-  background:#4a0487;
+.button-about:hover {
+  background: #4a0487;
 }
 
 .form-wrapper {
@@ -1134,49 +1138,50 @@ h1 {
 
   }
 
-  .subherosection{
+  .subherosection {
     background-image: url('../../public/images/hot-air-balloons.jpg') !important;
-    display:flex;
+    display: flex;
     flex-direction: column;
-    padding-top:40px;
-    height:650px;
+    padding-top: 40px;
+    height: 650px;
   }
 
-  .subherosection .overlay{
-    opacity:0.5 !important
+  .subherosection .overlay {
+    opacity: 0.5 !important
   }
 
-  .spacer{
-    padding-top:80px;
+  .spacer {
+    padding-top: 80px;
   }
 
   .section-mtt {
-    padding-top:80px;
+    padding-top: 80px;
   }
 
-  .about-section .media{
-    height:400px;
+  .about-section .media {
+    height: 400px;
   }
 
-  .media-stats{
-    flex-direction:column;
-    margin-bottom:20px;
-      
+  .media-stats {
+    flex-direction: column;
+    margin-bottom: 20px;
+
   }
+
   .weare img {
     width: 100%;
-    padding-bottom:30px;
-}
+    padding-bottom: 30px;
+  }
 
 
-.subhero-text h1{
-  color:white;
-}
+  .subhero-text h1 {
+    color: white;
+  }
 
-.subhero-text p{
-  color:white;
-}
-  
+  .subhero-text p {
+    color: white;
+  }
+
 
   .herovariant .waveSvg {
     display: none;
@@ -1328,8 +1333,44 @@ h1 {
   }
 
   .mobile-link-wrapper {
-    height: 100vh;
+    background: white;
+    width: 100%;
+    inset: 0;
+
+    position: relative;
+
+
   }
+
+
+
+  .mobile-link-wrapper ul {
+    padding: 20px 10px;
+    height: 100vh;
+    transition: height 500ms ease-out
+  }
+
+  .nav-padding {
+    padding: 0 !important
+  }
+
+  .nav li {
+    padding: 2px 1px;
+  }
+
+  .nav li a {
+    display:block;
+  }
+
+  .mobile-link-wrapper .ul-hide {
+
+
+    height: 0vh
+      /* display: none; */
+      /* position:absolute; */
+  }
+
+
 
   .hero-wrapper {
     padding-top: 150px !important;

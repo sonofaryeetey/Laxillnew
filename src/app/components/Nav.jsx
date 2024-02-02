@@ -17,15 +17,17 @@ const Nav = () => {
 
     // Replace javascript:void(0) path with your path
     const navigation = [
+        
         { title: "Home", path: "/" },
-        { title: "About Us", path: "/About" },
+        { title: "About", path: "/About" },
         { title: "Services", path: "javascript:void(0)" },
         { title: "Testimonials", path: "/Testimonials" },
         { title: "Contact", path: "/Contact" },
     ]
+
     return (
         <nav className="nav w-full  md:border-0 md:static">
-            <div className="  items-center px-4 max-w-screen-xl mx-auto md:flex md:px-8">
+            <div className="  items-center .nav-padding  max-w-screen-xl mx-auto md:flex md:px-8">
                 <div className=" logo flex items-center justify-between py-3 md:py-3 md:block">
                     <a href="/">
                         <img
@@ -33,7 +35,7 @@ const Nav = () => {
                             width={80}
                             height={50}
                             alt="logo"
-                        />
+                        />  
                         
                     </a>
                     <img
@@ -61,15 +63,15 @@ const Nav = () => {
                         </button>
                     </div>
                 </div>
-                <div className={`flex-1 mobile-link-wrapper justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${state ? 'block' : 'hidden'}`}>
-                    <ul className="justify-end mr-5 items-center space-y-8 md:flex md:space-x-6 md:space-y-0">
+                <div className={`flex-1 mobile-link-wrapper justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${state ? 'block' :'hidden'}`}>
+                    <ul className={`justify-end mr-5 items-center space-y-8 md:flex md:space-x-6 md:space-y-0 ${state ? '' :' ul-hid'}`}>
                         {
                             navigation.map((item, idx) => {
                                 return (
                                     <motion.div key={idx}
                                     whileHover={{scale:1.1}}
                                     >
-                                        <li  >
+                                        <li className='text-center text-xl md:text-base' >
                                         <a href={item.path} className={`${path===item.path? " highlight":""}  hover:text-indigo-600 px-2`}    >
                                             {item.title}
                                         </a>

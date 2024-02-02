@@ -134,7 +134,7 @@ const Testimonials = () => {
                                 whileInView={{ opacity: 1, y: 0 }}
                                 viewport={{ once: true }}
                                 transition={{ duration: 1.2,  ease: 'easeOut' }}
-                                 className=' text-xl font-bold py-10 md:text-3xl md:font-medium '>
+                                 className=' text-xl font-bold py-10 md:text-2xl md:font-medium '>
                                    {`
                                     "
                                     At Liznell, managing huge branding and printing projects is time consuming, I'm spending

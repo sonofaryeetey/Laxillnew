@@ -56,7 +56,7 @@ const Testimonials = () => {
     return (
         <section className="py-14 testimonials">
             <motion.div
-                className="max-w-screen-xl mx-auto py-10 px-4 md:px-8 card-testimonials"
+                className="max-w-screen-xl mx-auto py-10 px-4 nav-padding md:px-8 card-testimonials"
                 initial={{ opacity: -1, }}
                 whileInView={{ opacity: 1, }}
                 viewport={{ once: true, amount: 0.7 }}
