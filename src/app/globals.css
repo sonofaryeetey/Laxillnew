@@ -290,11 +290,11 @@ body {
 }
 
 .buttonoutline {
-  padding: 12px 0;
+  padding: 9px 0;
   max-width: 200px;
   background: transparent;
   margin: 5% 0;
-  border: 1px solid white;
+  border: 3px solid white;
   color: white;
   border-radius: 30px;
   font-weight: 700;

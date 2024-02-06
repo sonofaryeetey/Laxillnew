@@ -1,6 +1,7 @@
 import React from 'react'
 import Stats from './Stats'
 import {motion} from 'framer-motion'
+import Link from 'next/link'
 
 const Partners = () => {
     return (
@@ -42,7 +43,7 @@ const Partners = () => {
                                 viewport={{once:true, amount:0.7}}
                                 transition={{duration:0.7, ease:"easeOut"}}
                             
-                            >Become A Partner</motion.button>
+                            > <Link href={`/Contact`}>Become A Partner</Link></motion.button>
                     </div>
                     <motion.div className="partner-image-wrapper"
                         initial={{opacity:0, y:100}}

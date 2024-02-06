@@ -5,6 +5,7 @@ import { useState } from 'react'
 import logo from "../../../public/images/logov2.png"
 import { usePathname } from 'next/navigation'
 import {motion} from 'framer-motion'
+import Link from 'next/link'
 
 
 
@@ -86,7 +87,7 @@ const Nav = () => {
                     {/* <a href="javascript:void(0)" className="py-3 px-4 text-white bg-indigo-600 hover:bg-indigo-700 rounded-md shadow">
                         Get Started
                     </a> */}
-                    <button className='small-button buttonplane'>Get started</button>
+                    <button className='small-button buttonplane'><Link href={`/Contact`}>Get started</Link></button>
                 </div>
 
                 
