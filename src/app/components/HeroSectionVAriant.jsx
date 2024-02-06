@@ -24,7 +24,7 @@ const HeroSectionVAriant = () => {
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ delay: 0.3, duration: 0.55, ease: "easeOut" }}
                     >
-                        <h1>Make Smart Decisions And Drive Profitability Through Insights </h1>
+                        <h1>Make smart decisions and drive profitability through insights. </h1>
                         <p>Unlock the potential of your business through data-driven insights that fuel growth
                             and innovation. Empower your company to leverage data for informed decision-
                             making, streamlined operations, and accelerated expansion.</p>
