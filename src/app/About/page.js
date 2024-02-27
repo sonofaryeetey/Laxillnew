@@ -363,7 +363,8 @@ Limited the growth-minded company that it is today. </p>
                                         team.map((item, idx) => (
                                             <li key={idx}>
                                                 <div className="w-full md:w-60 h-60 sm:h-52 md:h-56">
-                                                    <img
+                                                    <motion.img
+                                                        whileHover={{scale:1.1}}
                                                         src={item.avatar}
                                                         className="w-full h-full object-cover object-center shadow-md rounded-xl"
                                                         alt=""
@@ -400,7 +401,9 @@ Limited the growth-minded company that it is today. </p>
                                         international_team.map((item, idx) => (
                                             <li key={idx}>
                                                 <div className="w-full h-60 sm:h-52 md:h-56">
-                                                    <img
+                                                    <motion.img
+                                                    whileHover={{scale:1.1}}
+                                                   
                                                         src={item.avatar}
                                                         className=" w-full md:w-60 h-full object-cover object-center shadow-md rounded-xl"
                                                         alt=""

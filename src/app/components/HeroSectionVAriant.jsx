@@ -29,19 +29,23 @@ const HeroSectionVAriant = () => {
                             and innovation. Empower your company to leverage data for informed decision-
                             making, streamlined operations, and accelerated expansion.</p>
                         <div>
+                            <Link href='/Contact'>
+                                <motion.button
+                                    initial={{ opacity: 1, y: 0 }}
+                                    animate={{ opacity: 1, y: 0 }}
+                                    transition={{}}
+                                    className='buttonplane w-full'>Get started
+                                </motion.button>
+                            </Link>
+                            
+                            <Link href='/services'>
                             <motion.button
                                 initial={{ opacity: 1, y: 0 }}
                                 animate={{ opacity: 1, y: 0 }}
-                                transition={{ }} 
-                                className='buttonplane w-full'><Link href='/Contact'>Get started</Link>
+                                transition={{}}
+                                className='buttonoutline w-full'>Explore
                             </motion.button>
-
-                            <motion.button
-                                initial={{ opacity: 1, y: 0 }}
-                                animate={{ opacity: 1, y: 0 }}
-                                transition={{ }} 
-                                className='buttonoutline w-full'><Link href=''>Explore</Link>
-                            </motion.button>
+                            </Link>
                         </div>
 
                     </motion.div>

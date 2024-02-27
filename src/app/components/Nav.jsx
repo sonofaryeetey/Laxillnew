@@ -21,7 +21,7 @@ const Nav = () => {
         
         { title: "Home", path: "/" },
         { title: "About", path: "/About" },
-        { title: "Services", path: "javascript:void(0)" },
+        { title: "Services", path: "/services" },
         { title: "Testimonials", path: "/Testimonials" },
         { title: "Contact", path: "/Contact" },
     ]
