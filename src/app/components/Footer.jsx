@@ -105,8 +105,8 @@ const Footer = () => {
                         <ul className="flex flex-wrap items-center gap-4 text-sm sm:text-base">
                             {
                                 footerNavs.map((item, idx) => (
-                                    <li className="text-purple-300 hover:text-gray-500 duration-150">
-                                        <a key={idx} href={item.href}>
+                                    <li className="text-purple-300 hover:text-gray-500 duration-150" key={idx}>
+                                        <a  href={item.href}>
                                             {item.name}
                                         </a>
                                     </li>
@@ -118,7 +118,7 @@ const Footer = () => {
                         <div className="max-w-xs">
                             <img src="images/logov2.png" className="w-32" />
                             <p className="leading-relaxed mt-2 text-[15px]">
-                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                                {`Laxill is powered by "Exel, Power-Bi, Python, Azure" `}
                             </p>
                         </div>
                         <form
