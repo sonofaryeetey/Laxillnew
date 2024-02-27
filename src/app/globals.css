@@ -347,8 +347,10 @@ body {
 
 .showcase{
 
-
+  position: relative;
+  z-index: 2;
 }
+
 
 .text-holder{
   display:flex;
@@ -1127,6 +1129,31 @@ h1 {
 .services-img img{
   width:100%;
 }
+
+/* ......... */
+.custom-shape-divider-bottom-1709064439 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1709064439 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 351px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1709064439 .shape-fill {
+  fill: #FFFFFF;
+}
+/* ............ */
+
 
 
 .underline {
