@@ -8,7 +8,7 @@ import { motion, AnimatePresence } from 'framer-motion'
 const About = () => {
 
     const team = [
-        
+
         {
             avatar: "https://images.unsplash.com/photo-1623605931891-d5b95ee98459?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=640&q=80",
             name: "Aaron Boateng",
@@ -36,7 +36,7 @@ const About = () => {
             twitter: "javascript:void(0)",
             github: "javascript:void(0)"
         },
-      
+
         {
             avatar: "https://images.unsplash.com/photo-1540569014015-19a7be504e3a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80",
             name: "Joshua Aryeetey",
@@ -119,7 +119,7 @@ const About = () => {
 
                                     initial={{ opacity: 0, scale: 1.5 }}
                                     whileInView={{ opacity: 1, scale: 1 }}
-                                    viewport={{once:true}}
+                                    viewport={{ once: true }}
                                     transition={{ delay: 0.5, duration: 2, ease: "easeInOut" }}
                                 />
 
@@ -137,9 +137,9 @@ const About = () => {
                             </div>
                             <div className='media-wrapper'>
                                 <div className='media' style={{
-                                    backgroundImage:"url(images/data-analytics-about.jpg)",
-                                    backgroundSize:"cover",
-                                    backgroundPosition:'center'
+                                    backgroundImage: "url(images/data-analytics-about.jpg)",
+                                    backgroundSize: "cover",
+                                    backgroundPosition: 'center'
                                 }}>
                                     <div className='overlay'></div>
                                     <div className='media-text'>
@@ -191,46 +191,46 @@ const About = () => {
 
 
                     <div className='container'>
-                        <p className='font-bold  max-w-full leading-tight px-10 text-3xl  md:w-2/3 md:text-5xl py-12  mt-10'>We started with a vision that 
-is <span className='text-gradient2'>continually expanding.</span>
-</p>
-                    <section className="py-14 weare">
-                        
-                        <div className="max-w-screen-xl mx-auto md:px-8">
-                            <div className='zod'>
-                                <div className="items-center gapper centerize gap-x-10  sm:px-4 md:px-0 lg:flex">
-                                    <div className="flex-1  lg:block">
-                                        <div className='img-restrict'>
-                                        <img src="images/hot-air-baloons.jpg" className="md:max-w-28 sm:rounded-lg" alt="" />
+                        <p className='font-bold  max-w-full leading-tight px-10 text-3xl  md:w-2/3 md:text-5xl py-12  mt-10'>We started with a vision that
+                            is <span className='text-gradient2'>continually expanding.</span>
+                        </p>
+                        <section className="py-14 weare">
+
+                            <div className="max-w-screen-xl mx-auto md:px-8">
+                                <div className='zod'>
+                                    <div className="items-center gapper centerize gap-x-10  sm:px-4 md:px-0 lg:flex">
+                                        <div className="flex-1  lg:block">
+                                            <div className='img-restrict'>
+                                                <img src="images/hot-air-baloons.jpg" className="md:max-w-28 sm:rounded-lg" alt="" />
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div className="max-w-xl px-4 space-y-3 mt-6 sm:px-0 md:mt-0 lg:max-w-lg">
-                                        {/* <h3 className="text-orange-600 font-semibold">
+                                        <div className="max-w-xl px-4 space-y-3 mt-6 sm:px-0 md:mt-0 lg:max-w-lg">
+                                            {/* <h3 className="text-orange-600 font-semibold">
                                             WHO WE ARE
                                         </h3> */}
-                                        {/* <p className="text-gray-800 text-3xl font-semibold sm:text-4xl">
+                                            {/* <p className="text-gray-800 text-3xl font-semibold sm:text-4xl">
                                             Drive your <span className='text-gradient'>growth </span>and <span className='text-gradient'>Success</span> with Laxill
                                         </p> */}
-                                        <p className="text-gray-800 text-3xl font-semibold md:text-5xl">
-                                            <span className=''>{`2023 & Beyond`}</span> 
-                                        </p>
-                                        <p className="mt-3 text-gray-600">
-                                        Since our establishment in 2014, the team has devoted 
-substantial effort to establishing our brand as a globally 
-competitive startup. Looking ahead to 2023 and beyond, 
-Laxill is committed to introducing new products and 
-services that underscore our dedication to leading 
-analytical digital transformation in businesses, not only 
-in Africa but globally
-                                        </p>
+                                            <p className="text-gray-800 text-3xl font-semibold md:text-5xl">
+                                                <span className=''>{`2023 & Beyond`}</span>
+                                            </p>
+                                            <p className="mt-3 text-gray-600">
+                                                Since our establishment in 2014, the team has devoted
+                                                substantial effort to establishing our brand as a globally
+                                                competitive startup. Looking ahead to 2023 and beyond,
+                                                Laxill is committed to introducing new products and
+                                                services that underscore our dedication to leading
+                                                analytical digital transformation in businesses, not only
+                                                in Africa but globally
+                                            </p>
+
+                                        </div>
 
                                     </div>
 
                                 </div>
-
                             </div>
-                        </div>
-                    </section>
+                        </section>
 
                     </div>
 
@@ -343,28 +343,28 @@ in Africa but globally
 
                     <section className="py-20 section-mtt">
                         <div className="max-w-screen-xl mx-auto px-4 md:px-8 ">
-                            <div className="max-w-4xl text-center mx-auto mb-24  ">
+                            <div className="max-w-4xl text-center mx-auto mb- ">
                                 <h3 className="text-gray-800 text-3xl  font-extrabold sm:text-5xl">
-                                    Our leaders are experts in 
- <span className='text-gradient2'> transforming insights </span>into impact.
+                                    Our leaders are experts in
+                                    <span className='text-gradient2'> transforming insights </span>into impact.
                                 </h3>
 
-                                <p className='py-14 text-lg'>Going above and beyond for our team, our partners, and our business, these are the leaders who make Laxill 
-Limited the growth-minded company that it is today. </p>
+                                <p className='py-14  text-lg'>Going above and beyond for our team, our partners, and our business, these are the leaders who make Laxill
+                                    Limited the growth-minded company that it is today. </p>
 
-                        
+
 
                             </div>
 
-                            <p className='text-3xl font-bold'>Meet The Team</p>
+                            <p className='text-3xl font-bold hidden'>Meet The Team</p>
                             <div className="mt-12">
-                                <ul className="grid gap-8 sm:grid-cols-2 md:grid-cols-4">
+                                <ul className="grid gap-8 sm:grid-cols-2 md:grid-cols-4 hidden">
                                     {
                                         team.map((item, idx) => (
                                             <li key={idx}>
                                                 <div className="w-full md:w-60 h-60 sm:h-52 md:h-56">
                                                     <motion.img
-                                                        whileHover={{scale:1.1}}
+                                                        whileHover={{ scale: 1.1 }}
                                                         src={item.avatar}
                                                         className="w-full h-full object-cover object-center shadow-md rounded-xl"
                                                         alt=""
@@ -392,18 +392,18 @@ Limited the growth-minded company that it is today. </p>
                                 </ul>
                             </div>
 
-                                    <h3 className='text-3xl font-bold mt-16'>International Business Advisors</h3>
+                            <h3 className='text-3xl font-bold mt-16 hidden'>International Business Advisors</h3>
                             <div className="mt-12">
 
 
-                                <ul className="grid gap-8 sm:grid-cols-2 md:grid-cols-3">
+                                <ul className="grid gap-8 sm:grid-cols-2 md:grid-cols-3 hidden">
                                     {
                                         international_team.map((item, idx) => (
                                             <li key={idx}>
                                                 <div className="w-full h-60 sm:h-52 md:h-56">
                                                     <motion.img
-                                                    whileHover={{scale:1.1}}
-                                                   
+                                                        whileHover={{ scale: 1.1 }}
+
                                                         src={item.avatar}
                                                         className=" w-full md:w-60 h-full object-cover object-center shadow-md rounded-xl"
                                                         alt=""
