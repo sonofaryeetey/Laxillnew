@@ -140,8 +140,7 @@ const Services = () => {
               <div className="text-holder">
                 <h5 className='font-bold md:text-4xl font-extrabold py-6'>Data Analysis</h5>
                 <p>
-                  We help companies to analyze their data to extract meaningful insights .This could
-                  involve predictive modeling, statistical analysis, machine learning ,or AI
+                  {`Businesses receive assistance in examining their data to uncover valuable insights. This could encompass predictive modeling, statistical analysis, machine learning, or AI techniques. `}
                 </p>
 
               </div>

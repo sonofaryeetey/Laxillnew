@@ -5,7 +5,7 @@ const FeatureTwo = () => {
     const posts = [
         {
             title: "Data Cleaning and Quality Assurance",
-            desc: "We help our clients to prepare their raw data by cleaning and normalizing it ensuring accuracy , completeness ,consistency , reliability and readiness for in-depth analysis",
+            desc: "Data quality, consistency, reliability, and completeness are the standards that we adhere to. We transform our clients’ raw data into a format that is suitable for complex analysis by cleaning and normalizing it. ",
             img: "images/data-cleaning.png",
             authorName: "Sidi dev",
             date: "Jan 4 2022",
@@ -13,7 +13,7 @@ const FeatureTwo = () => {
         },
         {
             title: "Data Collection and Management",
-            desc: " We assist businesses collect , manage ,and organize their data.We help set up databases ,ensuring data quality,and implementing data governance practices.",
+            desc: "Our services enable businesses to handle their data efficiently and effectively. We create and maintain databases, guarantee data integrity, and apply data governance standards. ",
             img: "images/data-collection.png",
             authorLogo: "https://api.uifaces.co/our-content/donated/FJkauyEa.jpg",
             authorName: "Micheal",
@@ -22,7 +22,7 @@ const FeatureTwo = () => {
         },
         {
             title: " Data Visualization",
-            desc: " We can create interactive dashboards and reports that make it easy for businesses to understand their data and make informed decisions to move their companies forward.",
+            desc: "Interactive dashboards and reports can be developed to simplify data comprehension for businesses, enabling them to make informed decisions to propel their companies forward. ",
             img: "images/data-visualization.png",
             authorLogo: "https://randomuser.me/api/portraits/men/46.jpg",
             authorName: "Luis",
@@ -31,7 +31,7 @@ const FeatureTwo = () => {
         },
         {
             title: "Predictive Analytics",
-            desc: "  We can use historical data to predict future trends and outcomes. This can help businesses anticipate future events and make proactive decisions ensuring business performance and growth.",
+            desc: "By using historical data, we can forecast future scenarios and results. This can enable businesses to plan ahead and make proactive decisions that ensure business performance and growth. ",
             img: "images/predictive-analysis.png",
             authorLogo: "https://api.uifaces.co/our-content/donated/KtCFjlD4.jpg",
             authorName: "Lourin",
@@ -40,7 +40,9 @@ const FeatureTwo = () => {
         },
         {
             title: "Consulting and Training",
-            desc: "    We can offer consulting services to help businesses understand how to use their data effectively.This could also involve training staff on data literacy and data analysis tools",
+            desc: "Our services include consulting businesses on how to leverage their data for optimal results. We can also train their staff on data literacy and data analysis tools." 
+
+            ,
             img: "images/training.png",
             authorLogo: "https://api.uifaces.co/our-content/donated/KtCFjlD4.jpg",
             authorName: "Lourin",
@@ -49,7 +51,7 @@ const FeatureTwo = () => {
         },
         {
             title: " Professional Partnership Program",
-            desc: " We allow professionals the opportunity to register to partner with our in-house consultants so that we can assist them to complete their office or company data analysis projects on time after we sign a Non-Disclosure Agreement so that they can be rest-assured that their data will be well protected ",
+            desc: " At Laxill, we allow professionals the opportunity to register to partner with our in-house consultants so that we can assist them to complete their office or company data analysis projects on time after we sign a Non-Disclosure Agreement so that they can be rest-assured that their data will be well protected ",
             img: "images/partnership.png",
             authorLogo: "https://api.uifaces.co/our-content/donated/KtCFjlD4.jpg",
             authorName: "Lourin",
