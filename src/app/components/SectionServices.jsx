@@ -1,6 +1,7 @@
 "use client"
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 import { motion, AnimatePresence, useInView, useIsPresent, useAnimation } from 'framer-motion'
 import { useRef, useEffect } from 'react'
 import bg1 from '../../../public/images/data-analytics1.jpg'
@@ -158,7 +159,7 @@ const SectionServices = () => {
 
 
                     </div>
-                    <motion.button className='button-testimonials z-10'
+                     <Link href={`/services`}><motion.button className='button-testimonials z-10'
                     initial={{ opacity: 0, y: 30 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true, }}
@@ -169,7 +170,7 @@ const SectionServices = () => {
                         hidden: { opacity: 0, y: 10 },
 
                     }}
-                    >See More</motion.button>
+                    >See More</motion.button></Link>
                 </div>
 
 
