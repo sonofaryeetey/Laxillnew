@@ -33,13 +33,14 @@ const Partners = () => {
                             transition={{duration:0.7, ease:"easeOut"}}
                         
                         >At Laxill, we allow professionals the opportunity to register to partner with our in-house consultants so that we can assist them to complete their office or company data analysis projects on time after we sign a Non-Disclosure Agreement so that they can be rest-assured that their data will be well protected</motion.p>
-                            <motion.button className='partner-button'
+                            <Link href={`/Contact`}>
+                                <motion.button className='partner-button'
                                 initial={{opacity:0, }}
                                 whileInView={{opacity:1, } }
                                 viewport={{once:true, amount:0.7}}
                                 transition={{duration:0.7, ease:"easeOut"}}
                             
-                            > <Link href={`/Contact`}>Become A Partner</Link></motion.button>
+                            > Become A Partner</motion.button></Link>
                     </div>
                     <motion.div className="partner-image-wrapper"
                         initial={{opacity:0, y:100}}
