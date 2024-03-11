@@ -32,11 +32,7 @@ const Partners = () => {
                             viewport={{once:true, }}
                             transition={{duration:0.7, ease:"easeOut"}}
                         
-                        >Embraced by a roster of rapidly expanding
-                            enterprises, collaboration through real-life stories
-                            empowers technology, channel, and portfolio partners
-                            to provide unparalleled solutions in the realm of
-                            comprehensive analytics automation and management.</motion.p>
+                        >At Laxill, we allow professionals the opportunity to register to partner with our in-house consultants so that we can assist them to complete their office or company data analysis projects on time after we sign a Non-Disclosure Agreement so that they can be rest-assured that their data will be well protected</motion.p>
                             <motion.button className='partner-button'
                                 initial={{opacity:0, }}
                                 whileInView={{opacity:1, } }
