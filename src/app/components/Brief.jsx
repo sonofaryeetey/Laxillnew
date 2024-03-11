@@ -1,5 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion'
+import Link from 'next/link'
 
 const Brief = () => {
   return (
@@ -46,7 +47,7 @@ const Brief = () => {
                 </p></li>
 
             </ul>
-            <button className='contact-btn mt-5  '><Link href={`/services`}>Get in touch</Link></button>
+            <button className='contact-btn mt-5  '><Link href={`/Contact`}>Get in touch</Link></button>
           </motion.div>
         </div>
       </div>
