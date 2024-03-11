@@ -159,7 +159,7 @@ const SectionServices = () => {
 
 
                     </div>
-                     <Link href={`/services`}><motion.button className='button-testimonials z-10'
+                     <motion.button className='button-testimonials z-10'
                     initial={{ opacity: 0, y: 30 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true, }}
@@ -170,7 +170,7 @@ const SectionServices = () => {
                         hidden: { opacity: 0, y: 10 },
 
                     }}
-                    >See More</motion.button></Link>
+                    ><Link href={`/services`}>See More</Link></motion.button>
                 </div>
 
 
