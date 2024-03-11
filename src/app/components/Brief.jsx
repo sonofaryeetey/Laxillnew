@@ -46,7 +46,7 @@ const Brief = () => {
                 </p></li>
 
             </ul>
-            <button className='contact-btn mt-5  '>Get in touch</button>
+            <button className='contact-btn mt-5  '><Link href={`/services`}>Get in touch</Link></button>
           </motion.div>
         </div>
       </div>
