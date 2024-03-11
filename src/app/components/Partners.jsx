@@ -32,7 +32,7 @@ const Partners = () => {
                             viewport={{once:true, }}
                             transition={{duration:0.7, ease:"easeOut"}}
                         
-                        >At Laxill, we allow professionals the opportunity to register to partner with our in-house consultants so that we can assist them to complete their office or company data analysis projects on time after we sign a Non-Disclosure Agreement so that they can be rest-assured that their data will be well protected</motion.p>
+                        > Our services enable professionals to collaborate with our in-house consultants and finish their data analysis projects on time. We sign a Non-Disclosure Agreement to ensure the security and confidentiality of their data.</motion.p>
                             <Link href={`/Contact`}>
                                 <motion.button className='partner-button'
                                 initial={{opacity:0, }}
