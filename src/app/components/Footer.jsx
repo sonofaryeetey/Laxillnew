@@ -305,7 +305,7 @@ const Footer = () => {
                         ))
                     }
 
-                    <div><img src="images/laxillLogofinal.png" width="120px"/></div>
+                    <div><img src="images/LaxillLogofinal.png" width="120px"/></div>
                 </div>
                 <div className="mt-10 py-10 border-t border-gray-700 items-center justify-between sm:flex">
                     <p className="text-gray-300">© 2024 Laxill. All rights reserved.</p>
