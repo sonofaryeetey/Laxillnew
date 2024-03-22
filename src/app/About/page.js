@@ -358,7 +358,7 @@ const About = () => {
 
                             <p className='text-3xl font-bold'>Meet The Team</p>
                             <div className="mt-12">
-                                <ul className="grid gap-8 sm:grid-cols-2 md:grid-cols-4 hidden">
+                                <ul className="grid gap-8 sm:grid-cols-2 md:grid-cols-4 ">
                                     {
                                         team.map((item, idx) => (
                                             <li key={idx}>
