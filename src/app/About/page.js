@@ -10,7 +10,7 @@ const About = () => {
     const team = [
 
         {
-            avatar: "url(./images/Aaron.jpeg)",
+            avatar: "images/Aaron.jpeg",
             name: "Aaron Boateng",
             title: "Data Analyst(Team Lead)",
             desc: "Lorem Ipsum is simply dummy text of the printing and typesettin industry.",
@@ -38,7 +38,7 @@ const About = () => {
         },
 
         {
-            avatar: "url(./images/Joshua.jpg)",
+            avatar: "images/Joshua.jpg",
             name: "Joshua Aryeetey",
             title: "Data Engineer(Technical Program Manager)",
             desc: "Lorem Ipsum is simply dummy text of the printing and typesettin industry.",
