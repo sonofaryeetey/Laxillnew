@@ -356,7 +356,7 @@ const About = () => {
 
                             </div>
 
-                            <p className='text-3xl font-bold hidden'>Meet The Team</p>
+                            <p className='text-3xl font-bold'>Meet The Team</p>
                             <div className="mt-12">
                                 <ul className="grid gap-8 sm:grid-cols-2 md:grid-cols-4 hidden">
                                     {
