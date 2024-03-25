@@ -18,15 +18,15 @@ const About = () => {
             twitter: "javascript:void(0)",
             github: "javascript:void(0)"
         },
-        {
-            avatar: "images/obed.png",
-            name: "Obed Obeng",
-            title: "Business Intelligence Consultant",
-            desc: "Lorem Ipsum is simply dummy text of the printing and typesettin industry.",
-            linkedin: "javascript:void(0)",
-            twitter: "javascript:void(0)",
-            github: "javascript:void(0)"
-        },
+        // {
+        //     avatar: "images/obed.png",
+        //     name: "Obed Obeng",
+        //     title: "Business Intelligence Consultant",
+        //     desc: "Lorem Ipsum is simply dummy text of the printing and typesettin industry.",
+        //     linkedin: "javascript:void(0)",
+        //     twitter: "javascript:void(0)",
+        //     github: "javascript:void(0)"
+        // },
         {
             avatar: "images/Jagga.jpeg",
             name: "Gabriel Boateng",
