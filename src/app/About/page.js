@@ -19,7 +19,7 @@ const About = () => {
             github: "javascript:void(0)"
         },
         {
-            avatar: "images/obed.jpeg",
+            avatar: "images/obed.png",
             name: "Obed Obeng",
             title: "Business Intelligence Consultant",
             desc: "Lorem Ipsum is simply dummy text of the printing and typesettin industry.",
