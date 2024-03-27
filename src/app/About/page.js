@@ -346,7 +346,7 @@ const About = () => {
                             <div className="max-w-4xl text-center mx-auto mb- ">
                                 <h3 className="text-gray-800 text-3xl  font-extrabold sm:text-5xl">
                                     Our leaders are experts in
-                                    <span className='text-gradient2'> transforming insights </span>into impact.
+                                    <span className='text-gradient2'> translating insights </span>into impact.
                                 </h3>
 
                                 <p className='py-14  text-lg'>Going above and beyond for our team, our partners, and our business, these are the leaders who make Laxill
