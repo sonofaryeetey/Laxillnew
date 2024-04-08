@@ -30,7 +30,7 @@ const About = () => {
         {
             avatar: "images/Jagga.jpeg",
             name: "Gabriel Boateng",
-            title: "Cybersecurity Data Analyst",
+            title: "Cybersecurity Analyst (GRC, IAM)",
             desc: "Lorem Ipsum is simply dummy text of the printing and typesettin industry.",
             linkedin: "javascript:void(0)",
             twitter: "javascript:void(0)",
