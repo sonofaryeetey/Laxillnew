@@ -357,7 +357,7 @@ const About = () => {
                             </div>
 
                            {/*  <p className='text-3xl font-bold'>Meet The Team</p>*/}
-                            <div className="mt-12">
+                            <div className="mt-7">
                                 {/* Team profiles will be added here soon. */}
                             </div>
 
