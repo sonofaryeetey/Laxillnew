@@ -349,7 +349,7 @@ const About = () => {
                                     <span className='text-gradient2'> translating insights </span>into impact.
                                 </h3>
 
-                                <p className='py-14  text-lg'>Going above and beyond for our team, our partners, and our business, these are the leaders who make Laxill
+                                <p className='pt-14 pb-8 text-lg'>Going above and beyond for our team, our partners, and our business, these are the leaders who make Laxill
                                     Limited the growth-minded company that it is today. </p>
 
 
