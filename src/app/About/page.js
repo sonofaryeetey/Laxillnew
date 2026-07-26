@@ -356,7 +356,7 @@ const About = () => {
 
                             </div>
 
-                            <p className='text-3xl font-bold'>Meet The Team</p>
+                           {/*  <p className='text-3xl font-bold'>Meet The Team</p>*/}
                             <div className="mt-12">
                                 {/* Team profiles will be added here soon. */}
                             </div>
