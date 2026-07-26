@@ -362,7 +362,7 @@ const About = () => {
                             </div>
 
                             <h3 className='text-3xl font-bold mt-16 hidden'>International Business Advisors</h3>
-                            <div className="mt-12">
+                            <div className="mt-5">
                                 {/* International advisor profiles will be added here soon. */}
                             </div>
                         </div>
