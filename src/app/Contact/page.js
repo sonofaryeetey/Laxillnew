@@ -295,15 +295,13 @@ const Contact = () => {
 
                             <div className='google-map'>
                                 <iframe
-                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3970.828423512986!2d-0.
-                2586169251760336!3d5.5923555943883985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf99b1ea6b313d%
-                3A0xca8f465a57b43f0a!2sNagla%20Cl%2C%20Accra!5e0!3m2!1sen!2sgh!4v1705494905531!5m2!1sen!2sgh"
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5790075.59064564!2d-91.5543381430954!3d44.878876919115946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4d4caa3dc7ca0411%3A0x97dd48597a62c9b3!2sMichigan!5e0!3m2!1sen!2sus!4v1785187974102!5m2!1sen!2sus"
                                     style={{ border: '0' }} allowfullscreen=""
                                     loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                                 <div className='map-text'>
-                                    <h3>Official Town</h3>
-                                    <p>Nagla close</p>
-                                    <Link target='_blank' href='https://www.google.com/maps/place/Nagla+Cl,+Accra/@5.592356,-0.256042,16z/data=!4m6!3m5!1s0xfdf99b1ea6b313d:0xca8f465a57b43f0a!8m2!3d5.5923556!4d-0.256042!16s%2Fg%2F11f5w8xg_l?hl=en&entry=ttu'>Get Directions</Link>
+                                    <h3>Michigan</h3>
+                                    <p>USA</p>
+                                    <Link target='_blank' href='https://maps.app.goo.gl/ZStECiwdXHG3RaBA9'>Get Directions</Link>
 
                                 </div>
                             </div>
