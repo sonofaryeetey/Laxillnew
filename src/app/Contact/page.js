@@ -286,9 +286,9 @@ const Contact = () => {
             <div className='absolute inset-0 blur-[118px] max-w-lg h-[800px] mx-auto sm:max-w-3xl sm:h-[400px]' style={{ background: "linear-gradient(106.89deg, rgba(192, 132, 252, 0.11) 15.73%, rgba(14, 165, 233, 0.41) 15.74%, rgba(232, 121, 249, 0.26) 56.49%, rgba(79, 70, 229, 0.4) 115.91%)" }}></div>
         </main> */}
                     </div>
-                    <div className='container_header'>
+                    <div className='container_header map-bg'>
 
-                        <h1 className='text-center text-xl md:text-3xl'>Office locations</h1>
+                        <h1 className='text-center text-xl md:text-2xl'>Locate Us</h1>
 
                         <div className='map-wrapper'>
 
@@ -305,7 +305,7 @@ const Contact = () => {
 
                                 </div>
                             </div>
-                            <div className='google-map'>
+                            {/* <div className='google-map'>
                                 <iframe
                                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3970.7165896792408!2d-0.1927922221788026!3d5.608811579860932!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf9baa1e540bad%3A0xd7de56cd03577988!2s2-4%20Noi%20Fetreke%20St%2C%20Accra!5e0!3m2!1sen!2sgh!4v1705515940289!5m2!1sen!2sgh"
                                     style={{ border: '0' }} allowfullscreen=""
@@ -316,8 +316,8 @@ const Contact = () => {
                                     <Link target='_blank' href='https://www.google.com/maps/place/2-4+Noi+Fetreke+St,+Accra/@5.6088116,-0.1927922,17z/data=!3m1!4b1!4m9!1m2!2m1!1sillona!3m5!1s0xfdf9baa1e540bad:0xd7de56cd03577988!8m2!3d5.6088116!4d-0.1879213!16s%2Fg%2F11c67plnqq?entry=ttu'>Get Directions</Link>
 
                                 </div>
-                            </div>
-                            <div className='google-map'>
+                            </div> */}
+                            {/* <div className='google-map'>
                                 <iframe
                                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3970.828423512986!2d-0.
                 2586169251760336!3d5.5923555943883985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf99b1ea6b313d%
@@ -330,7 +330,7 @@ const Contact = () => {
                                     <Link target='_blank' href='https://www.google.com/maps/place/Nagla+Cl,+Accra/@5.592356,-0.256042,16z/data=!4m6!3m5!1s0xfdf99b1ea6b313d:0xca8f465a57b43f0a!8m2!3d5.5923556!4d-0.256042!16s%2Fg%2F11f5w8xg_l?hl=en&entry=ttu'>Get Directions</Link>
 
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </motion.div>
